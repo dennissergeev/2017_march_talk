@@ -6,5 +6,7 @@
 
 # Outline
 
+<video src="media/vort-stream-theta.mp4" width="100%" muted controls></video>
+
 # Figure
-![](images/bt_median_pres_thta_relh_p0gt850.png)
+![](media/bt_median_pres_thta_relh_p0gt850.png)
