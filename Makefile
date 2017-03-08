@@ -7,7 +7,7 @@ all: $(ALL)
 reveal.js:
 	git clone https://github.com/hakimel/reveal.js
 
-index.html : slides.md
+index.html : slides.md template.html
 	pandoc $< -o $@ --template=template.html --mathjax --standalone --write=revealjs --css slides.css --highlight-style=espresso
 
 serve:
