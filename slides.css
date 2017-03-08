@@ -9,3 +9,4 @@ code span.dt { text-decoration: none; font-style: italic; }
 .reveal pre > code { font-size: 110%; line-height: 160%; }
 .reveal table { margin-right: auto; margin-left: auto; }
 .reveal section img { background: none; border: none; box-shadow: none; }
+.reveal .w45 { width: 45%; }

@@ -1,21 +1,25 @@
-% Arctic Hurricanes and the role of Boundary Layer processes
-% Denis Sergeev
-% University of East Anglia, 2017
-
 ---
-## Slide 2
+title: Polar lows
+author: Denis Sergeev
+date: 13 March 2017
+transition: "linear"
+---
 
-<div class='left' style='float:left;width:78%'>
-![](media/bt_median_pres_thta_relh_p0gt850.png)
- {{{ left }}}
-</div>    
-<div class='right' style='float:right;width:48%'>
- {{{ right }}}
-</div>
+# Title
+Note: lalala
+
+<iframe src="media/scene.html" class="stretch"></iframe>
 
 # Outline
-
-<video src="media/vort-stream-theta.mp4" width="100%" muted controls></video>
+<div class="w45" style="display: inline-block; height: 360px; margin-right: 5px;">
+  <video src="media/vort-stream-theta.mp4" width="100%" muted controls></video>
+  <p>My video</p>
+</div>
+<div class="w45" style="display: inline-block; height: 360px; margin-right: 5px;">
+  <img src="media/bt_median_pres_thta_relh_p0gt850.png">
+</div>
 
 # Figure
-![](media/bt_median_pres_thta_relh_p0gt850.png)
+
+# Thanks!
+* Questions?
