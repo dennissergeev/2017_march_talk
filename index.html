@@ -4,41 +4,125 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Denis Sergeev" />
-  <title>Arctic Hurricanes and the role of Boundary Layer processes</title>
+  <meta name="dcterms.date" content="2017-03-13" />
+  <title>Polar lows</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
     <style type="text/css">code{white-space: pre;}</style>
-    <link rel="stylesheet" href="slides.css"/>
-  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
-  <!--[if lt IE 9]>
-  <script src="reveal.js/lib/js/html5shiv.js"></script>
-  <![endif]-->
+    <link rel="stylesheet" href="mytheme.css"/>
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
 <section>
-    <h1 class="title">Arctic Hurricanes and the role of Boundary Layer processes</h1>
+    <h1 class="title">Polar lows</h1>
     <h2 class="author">Denis Sergeev</h2>
-    <h3 class="date">University of East Anglia, 2017</h3>
+    <h3 class="date">13 March 2017</h3>
+<center>
+    <img src="media/uealogo.png" style="height:75px; margin:0px 50px;">
+    <img src="media/coaslogo.svg" style="height:75px; margin:0px 50px;">
+    <img src="media/bergenlogo.png" style="height:75px; margin:0px 50px;">
+</center>
 </section>
 
 <section id="outline" class="slide level1">
 <h1>Outline</h1>
-<video src="media/vort-stream-theta.mp4" width="100%" muted controls></video>
+<ul>
+<li>What are polar lows?</li>
+<li>Example: ACCACIA PL
+<ul>
+<li>Large-scale conditions?</li>
+<li>Satellite image + 3D image</li>
+</ul></li>
+<li>Dynamics: vorticity budget + equation</li>
+<li>Environment factors influencing PL development</li>
+<li>My current research: influence of orography and sea ice
+<ul>
+<li>Let's remove Svalbard!</li>
+<li>Some results of the sensitivity experiments</li>
+</ul></li>
+</ul>
+</section>
+<section id="intro" class="slide level1">
+<h1>Intro</h1>
+<ul>
+<li class="fragment">Polar lows are one of the most extreme events in the polar regions</li>
+<li class="fragment">They pose danger to coastal infrastructure and offshore activities</li>
+</ul>
+</section>
+<section id="accacia-polar-low" class="slide level1">
+<h1>ACCACIA Polar Low</h1>
+<div class="img-with-text" style="float: right;">
+  
+<img src="media/modis.jpg" style="height:500px; width:600px;">
+<p>
+NEODAAS NERC Satellite Receiving Station, Dundee University
+</p>
+</div>
 
+</section>
+<section id="accacia-polar-low-1" class="slide level1">
+<h1>ACCACIA Polar low</h1>
+<div style="float: right;">
+<img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;">
+</div>
+<!--
+<iframe src="media/scene.html" class="stretched" style="height:700px; width:900px"></iframe>
+-->
+<aside class="notes">
+    <p>
+Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.
+</p>
+    <p>
+Following the green vectors of the wind field, one can see the dramatic wind shear at the forefront of the cold‐air outbreak, and the intense polar low that was spawned.
+</p>
+    <p>
+Met Office NWP model reproduced the structure and the convective processes within the polar low, as demonstrated by the 3D images of total cloud (white) and frozen (cyan) water.
+</p>
+</aside>
+
+</section>
+<section id="fun" class="slide level1">
+<h1>Fun</h1>
+<div class="w45" style="display: inline-block; height: 360px; margin-right: 5px;">
+<video src="media/vort-stream-theta.mp4" width="100%" muted controls></video>
+  <p>
+My video
+</p>
+</div>
+<div class="w45" style="display: inline-block; height: 360px; margin-right: 5px;">
+  
+<img src="media/bt_median_pres_thta_relh_p0gt850.png">
+</div>
 </section>
 <section id="figure" class="slide level1">
 <h1>Figure</h1>
-<figure>
-<img src="media/bt_median_pres_thta_relh_p0gt850.png" />
-</figure>
+</section>
+<section id="thanks" class="slide level1">
+<h1>Thanks!</h1>
+<ul>
+<li>Questions?</li>
+</ul>
 </section>
     </div>
   </div>
+
 
   <script src="reveal.js/lib/js/head.min.js"></script>
   <script src="reveal.js/js/reveal.js"></script>
@@ -53,7 +137,7 @@
         history: true,
         center: true,
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
@@ -64,5 +148,5 @@
 //          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 ]});
     </script>
-  </body>
+    </body>
 </html>

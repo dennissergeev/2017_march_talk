@@ -1,6 +1,6 @@
 @import url("./reveal.js/css/theme/white.css");
 
-.reveal h1 
+.reveal h1 { 
     font-size: 1.5em;
 }
 
