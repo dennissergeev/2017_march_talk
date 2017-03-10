@@ -1,0 +1,66 @@
+@import url("./reveal.js/css/theme/white.css");
+
+.reveal h1 
+    font-size: 1.5em;
+}
+
+.reveal section img { background: none;
+                      border: none;
+                      box-shadow: none; }
+
+/* some custom classes taken from pkgwtheme.css */
+
+.reveal section div img, .reveal section div video {
+    /* If inside a <div>, assume manual layout; let the image
+ *        fill the whole box */
+    max-width: 100%;
+}
+
+.reveal .ctr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reveal .w25 { width: 25%; }
+.reveal .w30 { width: 30%; }
+.reveal .w35 { width: 35%; }
+.reveal .w40 { width: 40%; }
+.reveal .w45 { width: 45%; }
+.reveal .w50 { width: 50%; }
+.reveal .w55 { width: 55%; }
+.reveal .w60 { width: 60%; }
+.reveal .w65 { width: 65%; }
+.reveal .w70 { width: 70%; }
+.reveal .w80 { width: 80%; }
+.reveal .w85 { width: 85%; }
+.reveal .w90 { width: 90%; }
+.reveal .w100 { width: 100%; }
+
+.img-with-text {
+    text-align: justify;
+    font-size: 50% ! important;
+}
+
+.img-with-text img {
+    float: right ! important;
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+.reveal .bgcred {
+    text-align: right;
+    font-size: 60% !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.reveal .lcred {
+    text-align: left;
+    font-size: 55% !important;
+}
+
+.reveal .rcred {
+    text-align: right;
+    font-size: 55% !important;
+}*/
