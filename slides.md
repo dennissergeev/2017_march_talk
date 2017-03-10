@@ -5,7 +5,7 @@ date: 13 March 2017
 ---
 
 <section data-state="fullscreen">
-  <iframe src="media/scene.html" class="stretched" style="height:700px; width:900px"></iframe>
+  <iframe src="media/featured_scene.html" class="stretched" style="height:700px; width:900px"></iframe>
 </section>
 
 # Outline
