@@ -51,4 +51,14 @@ transition: "fade"
 # Figure
 
 # Thanks!
-* Questions?
+<center class="fragment fade-in" style="font-size:150%;">
+Questions?
+</center>
+
+
+<ul class="icon-list">
+  <li><a href="https://dennissergeev.github.io"><i class="fa fa-globe -square fa-lg"></i>dennissergeev.github.io</a></li>
+  <li><a href="https://twitter.com/meteodenny"><i class="fa fa-twitter -square fa-lg"></i>meteodenny</a></li>
+  <li><a href="https://https://github.com/dennissergeev"><i class="fa fa-github -square fa-lg"></i>dennissergeev</a></li>
+  <li><a href="https://www.researchgate.net/profile/Denis_Sergeev2"><i class="ai ai-researchgate -square fa-lg"></i>Denis_Sergeev2</a></li>
+</ul>

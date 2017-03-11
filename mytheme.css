@@ -1,4 +1,6 @@
 @import url("./reveal.js/css/theme/white.css");
+@import url("./icons/font-awesome/css/font-awesome.min.css");
+@import url("./icons/academicons/css/academicons.css");
 
 .reveal h1 { 
     font-size: 1.5em;
@@ -45,6 +47,20 @@
     float: right ! important;
     display: block;
     margin: 0 auto;
+}
+
+.reveal .icon-list {
+    margin-top: 100px;
+    list-style: none;
+    font-size: 70%;
+}
+
+.reveal .icon-list li {
+    margin: 10px;
+}
+
+.reveal .icon-list li i {
+    margin: 0px 10px;
 }
 
 /*
