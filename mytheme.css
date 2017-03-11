@@ -11,6 +11,11 @@
                       box-shadow: none; }
 
 /* some custom classes taken from pkgwtheme.css */
+.reveal .slides > section {
+    /* Force every slide to be full height so that footers work */
+    height: 100%;
+    border-style: solid; border-color: #ff0000; border-width:1px;
+}
 
 .reveal section div img, .reveal section div video {
     /* If inside a <div>, assume manual layout; let the image
@@ -23,20 +28,20 @@
     margin-right: auto;
 }
 
-.reveal .w25 { width: 25%; }
-.reveal .w30 { width: 30%; }
-.reveal .w35 { width: 35%; }
-.reveal .w40 { width: 40%; }
-.reveal .w45 { width: 45%; }
-.reveal .w50 { width: 50%; }
-.reveal .w55 { width: 55%; }
-.reveal .w60 { width: 60%; }
-.reveal .w65 { width: 65%; }
-.reveal .w70 { width: 70%; }
-.reveal .w80 { width: 80%; }
-.reveal .w85 { width: 85%; }
-.reveal .w90 { width: 90%; }
-.reveal .w100 { width: 100%; }
+.reveal .w25  { width: 25%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w30  { width: 30%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w35  { width: 35%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w40  { width: 40%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w45  { width: 45%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w50  { width: 50%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w55  { width: 55%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w60  { width: 60%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w65  { width: 65%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w70  { width: 70%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w80  { width: 80%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w85  { width: 85%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w90  { width: 90%; border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
+.reveal .w100 { width: 100%;border-style: solid; border-color: #ff0000; border-width:1px; display: inline-block}
 
 .img-with-text {
     text-align: justify;
