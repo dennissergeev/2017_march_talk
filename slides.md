@@ -87,9 +87,6 @@ transition: "fade"
 <div style="float: right;">
   <img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;">
 </div>
-<!--
-<iframe src="media/scene.html" class="stretched" style="height:700px; width:900px"></iframe>
--->
 <aside class="notes">
   <p>Following the green vectors of the wind field, one can see the dramatic wind shear at the forefront of the cold‐air outbreak, and the intense polar low that was spawned.</p>
   <p>Met Office NWP model reproduced the structure and the convective processes within the polar low, as demonstrated by the 3D images of total cloud (white) and frozen (cyan) water.</p>
@@ -105,10 +102,6 @@ transition: "fade"
 
 
 
-# Where the air comes from? 
-{backward trajectories}
-
-
 # Environment factors
 Hypothesis:
 <blockquote>Svalbard's orography deflects the northerly flow</blockquote>
@@ -116,18 +109,53 @@ $$\Downarrow$$
 <blockquote>Let's remove Svalbard!</blockquote>
 
 
-# Experiments without Svalbard
+# Experiment without Svalbard
+<div class="w100">
+  <img src="media/sic_oro_diff_ctrl_nosvalbard.png">
+</div>
+* Surface altitude of Svalbard is set to 0
+* Sea ice is the same as in the control (CTRL) run
 
 
-# Removing Svalbard has little impact on the polar low development
-{wind field / vorticity difference}
+# without Svalbard
+* Removing Svalbard has little impact on the polar low development
+* Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
+
+<iframe src="media/ctrl_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+
+
+# Experiment with "fake" sea ice
+<div class="w100">
+  <img src="media/sic_oro_diff_ctrl_fake_seaice.png">
+</div>
+* Surface altitude of Svalbard is the same as in CTRL
+* Sea ice edge is a straight line
+
+
+# with "fake" sea ice
+* Perturbing sea ice cover has bigger impact: the cyclone is displaced more
+* Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
+
+<iframe src="media/ctrl_seaice450/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+
+
+# Experiment without Svalbard AND with "fake" sea ice
+<div class="w100">
+  <img src="media/sic_oro_diff_ctrl_nosvalbard_fake_seaice.png">
+</div>
+* Surface altitude of Svalbard is set to 0
+* Sea ice edge is a straight line
+
+
+# without Svalbard AND with "fake" sea ice
+* Two factors combined result in the biggest difference compared to CTRL run
+* Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
+
+<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
 
 
 # How is it reflected in the backward trajectories?
 {backward trajectories with and w/o level sampling} 
-
-
-# The same, but for the sea ice
 
 
 # Summary
