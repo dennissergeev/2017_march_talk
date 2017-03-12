@@ -21,9 +21,30 @@ transition: "fade"
 > - They pose danger to coastal infrastructure and offshore activities
 
 
-# Example from late March 2013
-* Cold air outbreak and merry-go-round circulation in the Norwegian Sea
-<div class="w100">{image}</div>
+#
+<div class="w50">
+  <img src="media/olr_slp_vort_20130326_1800_0200_1300.jpg">
+</div>
+<div class="w45">
+  <h3>Example from March 2013</h3>
+  <p>Along the cyclone track:</p>
+  <img src="media/pl_track_vort_precip_slp.gif">
+  <p>Relative vorticity ($\zeta$), pressure contours, and precipitation</p>
+</div>
+<aside class="notes">
+  <h5>Growing stage</h5>
+  * Convergence of two branches of CAO
+  * High positive relative vorticity filament in the lee of Svalbard
+  
+  <h5>Mature stage</h5>
+  * Instability waves merge into the dominant mesocyclone
+  
+  <h5>Initia stage</h5>
+  * The PL travels SE around the synoptic low
+  * The core disintegrates into smaller disturbances
+  * Remnants of the vortex get absorbed by a new stronger cyclone
+</aside>
+
 
 
 # Observations
