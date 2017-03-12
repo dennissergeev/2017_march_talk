@@ -3,6 +3,7 @@ title: Polar lows
 author: Denis Sergeev
 date: 13 March 2017
 transition: "fade"
+
 ---
 # Outline
 * What are polar lows?
@@ -46,7 +47,6 @@ transition: "fade"
 </aside>
 
 
-
 # Observations
 <div class="w40" style="float: top;">
   <ul>
@@ -72,6 +72,7 @@ transition: "fade"
   <video src="media/shear_line_flight.mp4" width="100%" muted controls></video>
 </div>
 
+
 # ACCACIA Polar Low
 <div class="img-with-text" style="float: right;">
   <img src="media/modis.jpg" style="height:500px; width:600px;">
@@ -80,6 +81,7 @@ transition: "fade"
 <aside class="notes">
   <p>Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.</p>
 </aside>
+
 
 # ACCACIA Polar low
 <div style="float: right;">
@@ -93,16 +95,35 @@ transition: "fade"
   <p>Met Office NWP model reproduced the structure and the convective processes within the polar low, as demonstrated by the 3D images of total cloud (white) and frozen (cyan) water.</p>
 </aside>
 
-# Fun
-<div class="w45">
-  <video src="media/vort-stream-theta.mp4" width="100%" muted controls></video>
-  <p>My video</p>
-</div>
-<div class="w45">
-  <img src="media/bt_median_pres_thta_relh_p0gt850.png">
-</div>
 
-# Figure
+#
+<blockquote>The <b>Met Office Unified Model</b> reproduced the polar low reasonably well</blockquote>
+<p style="font-size: 50%;">(more info in this paper:)</p>
+<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>
+<p style="font-size: 200%;">$$\Downarrow$$</p>
+<blockquote>We use it in further analysis of the polar low</blockquote>
+
+
+
+# Where the air comes from? 
+{backward trajectories}
+
+
+# Environmental factors
+Hypothesis:
+<blockquote>Svalbard's orography deflects the northerly flow</blockquote>
+$$\Downarrow$$
+<blockquote>Let's remove Svalbard!</blockquote>
+
+
+# Want to learn more about polar lows?
+* <a href="https://polarlows.wordpress.com/">Polar lows - the coolest weather on planet</a>
+
+<iframe src="https://polarlows.wordpress.com/" style="width:100%; height:300px;"></iframe>
+* <a href="https://www.barentswatch.no/en/polar-low/">Real-time polar low forecasts via Barents Watch</a>
+
+<iframe src="https://www.barentswatch.no/en/polar-low/" style="width:100%; height:300px;"></iframe>
+
 
 # Thanks!
 <center class="fragment fade-in" style="font-size:150%;">
