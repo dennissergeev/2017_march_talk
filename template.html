@@ -41,7 +41,7 @@ $endif$
     <script src="$revealjs-url$/lib/js/html5shiv.js"></script>
     <![endif]-->
 $if(math)$
-    $math$
+  $math$
 $endif$
 $for(header-includes)$
     $header-includes$
@@ -99,6 +99,10 @@ $body$
         slideNumber: "c/t",
         theme: $if(theme)$'$theme$'$else$Reveal.getQueryHash().theme$endif$, // available themes are in /css/theme
         transition: $if(transition)$'$transition$'$else$Reveal.getQueryHash().transition || 'default'$endif$, // default/cube/page/concave/zoom/linear/fade/none
+        //math: {
+        //    mathjax: 'mathjax/MathJax.js',
+        //    config: 'TeX-AMS_HTML-full',
+        //  },
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
