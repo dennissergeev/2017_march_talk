@@ -27,9 +27,20 @@ transition: "fade"
 
 
 # Observations
-* Polar low was probed by instrumented aircraft and dropsondes during ACCACIA field campaign
-<div class="w45" style="margin: 0px">{all_obs_map}</div>
-<div class="w45" style="margin: 0px">{video}</div>
+<div class="w40" style="float: top;">
+  <ul>
+  <li>Data were gathered instrumented aircraft and dropsondes during ACCACIA field campaign</li>
+  </ul>
+  <img src="media/faam_probes.jpg">
+  <div class="w40"><img src="media/dropsonde.png"></div>
+  <div class="w40"><img src="media/faam.png"></div>
+</div>
+<div class="w55">
+  <img src="media/all_obs_map_with_globe.jpg">
+  <ul>
+  <li>Satellite data: AVHRR, CloudSat, ASCAT</li>
+  </ul>
+</div>
 
 
 # ACCACIA Polar Low
