@@ -43,6 +43,14 @@ transition: "fade"
 </div>
 
 
+# Flying through the cloud wall
+<div class="w25">
+  <img src="media/LowLevelFlight_tseries_break_map.png">
+</div>
+<div class="w70">
+  <video src="media/shear_line_flight.mp4" width="100%" muted controls></video>
+</div>
+
 # ACCACIA Polar Low
 <div class="img-with-text" style="float: right;">
   <img src="media/modis.jpg" style="height:500px; width:600px;">
