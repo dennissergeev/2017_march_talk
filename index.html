@@ -25,6 +25,7 @@
     <!--[if lt IE 9]>
     <script src="reveal.js/lib/js/html5shiv.js"></script>
     <![endif]-->
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
   <div class="reveal">
@@ -49,8 +50,8 @@
 <ul>
 <li>Large-scale conditions?</li>
 <li>Satellite image + 3D image</li>
+<li>Backward trajectories</li>
 </ul></li>
-<li>Dynamics: vorticity budget + equation</li>
 <li>Environment factors influencing PL development</li>
 <li>My current research: influence of orography and sea ice
 <ul>
@@ -59,12 +60,111 @@
 </ul></li>
 </ul>
 </section>
-<section id="intro" class="slide level1">
-<h1>Intro</h1>
+<section id="what-are-polar-lows" class="slide level1">
+<h1>What are polar lows?</h1>
 <ul>
 <li class="fragment">Polar lows are one of the most extreme events in the polar regions</li>
 <li class="fragment">They pose danger to coastal infrastructure and offshore activities</li>
 </ul>
+</section>
+<section id="where-do-polar-lows-occur" class="slide level1">
+<h1>Where do polar lows occur?</h1>
+<div class="w70">
+  
+<img src="media/pl_climatology.jpg">
+<p>
+Source: MET.no, Noer
+</p>
+</div>
+
+
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
+<div class="w50">
+<img src="media/olr_slp_vort_20130326_1800_0200_1300.jpg">
+</div>
+<div class="w45">
+  <h3>
+Example from March 2013
+</h3>
+  <p>
+Along the cyclone track:
+</p>
+  
+<img src="media/pl_track_vort_precip_slp.gif">
+<p>
+Relative vorticity (<span class="math">\(\zeta\)</span>), pressure contours, and precipitation
+</p>
+</div>
+<aside class="notes">
+  <h5>
+Growing stage
+</h5>
+  
+<ul>
+<li>Convergence of two branches of CAO</li>
+<li>High positive relative vorticity filament in the lee of Svalbard</li>
+</ul>
+<h5>
+Mature stage
+</h5>
+  
+<ul>
+<li>Instability waves merge into the dominant mesocyclone</li>
+</ul>
+<h5>
+Initia stage
+</h5>
+  
+<ul>
+<li>The PL travels SE around the synoptic low</li>
+<li>The core disintegrates into smaller disturbances</li>
+<li>Remnants of the vortex get absorbed by a new stronger cyclone
+</aside>
+
+</li>
+</ul>
+</section>
+<section id="observations" class="slide level1">
+<h1>Observations</h1>
+<div class="w40" style="float: top;">
+<ul>
+  <li>
+Data were gathered instrumented aircraft and dropsondes during ACCACIA field campaign
+</li>
+  </ul>
+  
+<img src="media/faam_probes.jpg">
+<div class="w40">
+<img src="media/dropsonde.png">
+</div>
+<div class="w40">
+<img src="media/faam.png">
+</div>
+</div>
+<div class="w55">
+  
+<img src="media/all_obs_map_with_globe.jpg">
+<ul>
+  <li>
+Satellite data: AVHRR, CloudSat, ASCAT
+</li>
+  </ul>
+</div>
+
+
+</section>
+<section id="flying-through-the-cloud-wall" class="slide level1">
+<h1>Flying through the cloud wall</h1>
+<div class="w25">
+<img src="media/LowLevelFlight_tseries_break_map.png">
+</div>
+<div class="w70">
+  <video src="media/shear_line_flight.mp4" width="100%" muted controls></video>
+</div>
+
+
 </section>
 <section id="accacia-polar-low" class="slide level1">
 <h1>ACCACIA Polar Low</h1>
@@ -75,6 +175,12 @@
 NEODAAS NERC Satellite Receiving Station, Dundee University
 </p>
 </div>
+<aside class="notes">
+  <p>
+Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.
+</p>
+</aside>
+
 
 </section>
 <section id="accacia-polar-low-1" class="slide level1">
@@ -82,43 +188,193 @@ NEODAAS NERC Satellite Receiving Station, Dundee University
 <div style="float: right;">
 <img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;">
 </div>
-<!--
-<iframe src="media/scene.html" class="stretched" style="height:700px; width:900px"></iframe>
--->
 <aside class="notes">
-    <p>
-Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.
-</p>
-    <p>
+  <p>
 Following the green vectors of the wind field, one can see the dramatic wind shear at the forefront of the cold‐air outbreak, and the intense polar low that was spawned.
 </p>
-    <p>
+  <p>
 Met Office NWP model reproduced the structure and the convective processes within the polar low, as demonstrated by the 3D images of total cloud (white) and frozen (cyan) water.
 </p>
 </aside>
 
+
 </section>
-<section id="fun" class="slide level1">
-<h1>Fun</h1>
-<div class="w45" style="display: inline-block; height: 360px; margin-right: 5px;">
-<video src="media/vort-stream-theta.mp4" width="100%" muted controls></video>
-  <p>
-My video
+<section id="section-1" class="slide level1">
+<h1></h1>
+<blockquote>
+The <b>Met Office Unified Model</b> reproduced the polar low reasonably well
+</blockquote>
+<p style="font-size: 50%;">
+(more info in this paper:)
 </p>
-</div>
-<div class="w45" style="display: inline-block; height: 360px; margin-right: 5px;">
-  
-<img src="media/bt_median_pres_thta_relh_p0gt850.png">
-</div>
+<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>
+<p style="font-size: 200%;">
+<span class="math">\[\Downarrow\]</span>
+</p>
+<blockquote>
+We use it in further analysis of the polar low
+</blockquote>
+
+
+
 </section>
-<section id="figure" class="slide level1">
-<h1>Figure</h1>
+<section id="environment-factors" class="slide level1">
+<h1>Environment factors</h1>
+Hypothesis:
+<blockquote>
+Svalbard's orography deflects the northerly flow
+</blockquote>
+<span class="math">\[\Downarrow\]</span>
+<blockquote>
+Let's remove Svalbard!
+</blockquote>
+
+
+</section>
+<section id="experiment-without-svalbard" class="slide level1">
+<h1>Experiment without Svalbard</h1>
+<div class="w100">
+<img src="media/sic_oro_diff_ctrl_nosvalbard.png">
+</div>
+<ul>
+<li>Surface altitude of Svalbard is set to 0</li>
+<li>Sea ice is the same as in the control (CTRL) run</li>
+</ul>
+</section>
+<section id="without-svalbard" class="slide level1">
+<h1>without Svalbard</h1>
+<ul>
+<li>Removing Svalbard has little impact on the polar low development</li>
+<li>Shown are isosurfaces of vorticity (<span class="math">\(\zeta=5\times10^{-4} s^{-1}\)</span>)</li>
+</ul>
+<iframe src="media/ctrl_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+
+
+</section>
+<section id="how-is-it-reflected-in-the-backward-trajectories" class="slide level1">
+<h1>How is it reflected in the backward trajectories?</h1>
+<ul>
+<li>We use LAGRANTO model to calculate trajectories backward in time, starting from the polar low centre</li>
+<li>All the trajectories coloured by pressure value are shown below</li>
+</ul>
+<div class="w100">
+<img src="media/ctrl_nosvalbard_diff_traj_all.png">
+</div>
+<aside class="notes">
+<p>
+The majority of air parcels that ended up in the PL sector have north and north-west origin
+</p>
+<p>
+Atmospheric pressure does not change significantly along a single trajectory, implying the mesocyclones formed without interaction with the upper troposphere.
+</p>
+<p>
+Air from the Svalbard region moves mostly within mid-tropospheric levels
+</p>
+</aside>
+</section>
+<section id="how-is-it-reflected-in-the-backward-trajectories-1" class="slide level1">
+<h1>How is it reflected in the backward trajectories?</h1>
+<ul>
+<li>Now only the trajectories that ended up in the boundary layer (below 850 hPa)</li>
+</ul>
+<div class="w100">
+<img src="media/ctrl_nosvalbard_diff_traj_below850hpa.png">
+</div>
+<aside class="notes">
+<p>
+Very few trajectories pass over Svalbard
+</p>
+</aside>
+
+
+</section>
+<section id="experiment-with-fake-sea-ice" class="slide level1">
+<h1>Experiment with &quot;fake&quot; sea ice</h1>
+<div class="w100">
+<img src="media/sic_oro_diff_ctrl_fake_seaice.png">
+</div>
+<ul>
+<li>Surface altitude of Svalbard is the same as in CTRL</li>
+<li>Sea ice edge is a straight line</li>
+</ul>
+</section>
+<section id="with-fake-sea-ice" class="slide level1">
+<h1>with &quot;fake&quot; sea ice</h1>
+<ul>
+<li>Perturbing sea ice cover has bigger impact: the cyclone is displaced more</li>
+<li>Shown are isosurfaces of vorticity (<span class="math">\(\zeta=5\times10^{-4} s^{-1}\)</span>)</li>
+</ul>
+<iframe src="media/ctrl_seaice450/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+
+
+</section>
+<section id="experiment-without-svalbard-and-with-fake-sea-ice" class="slide level1">
+<h1>Experiment without Svalbard AND with &quot;fake&quot; sea ice</h1>
+<div class="w100">
+<img src="media/sic_oro_diff_ctrl_nosvalbard_fake_seaice.png">
+</div>
+<ul>
+<li>Surface altitude of Svalbard is set to 0</li>
+<li>Sea ice edge is a straight line</li>
+</ul>
+</section>
+<section id="without-svalbard-and-with-fake-sea-ice" class="slide level1">
+<h1>without Svalbard AND with &quot;fake&quot; sea ice</h1>
+<ul>
+<li>Two factors combined result in the biggest difference compared to CTRL run</li>
+<li>Shown are isosurfaces of vorticity (<span class="math">\(\zeta=5\times10^{-4} s^{-1}\)</span>)</li>
+</ul>
+<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+
+
+</section>
+<section id="summary" class="slide level1">
+<h1>Summary</h1>
+<ul>
+<li>Sea ice is more important than orography</li>
+</ul>
+<h2 id="future-plans">Future plans</h2>
+<ul>
+<li>Run the model for other polar low cases</li>
+<li>Investigate how the sea ice cover affects polar low dynamics</li>
+</ul>
+</section>
+<section id="want-to-learn-more-about-polar-lows" class="slide level1">
+<h1>Want to learn more about polar lows?</h1>
+<ul>
+<li><a href="https://polarlows.wordpress.com/">Polar lows - the coolest weather on planet</a></li>
+</ul>
+<iframe src="https://polarlows.wordpress.com/" style="width:100%; height:300px;"></iframe>
+<ul>
+<li><a href="https://www.barentswatch.no/en/polar-low/">Real-time polar low forecasts via Barents Watch</a></li>
+</ul>
+<iframe src="https://www.barentswatch.no/en/polar-low/" style="width:100%; height:300px;"></iframe>
+
+
 </section>
 <section id="thanks" class="slide level1">
 <h1>Thanks!</h1>
-<ul>
-<li>Questions?</li>
+<center class="fragment fade-in" style="font-size:250%;">
+Questions?
+</center>
+
+
+<ul class="icon-list">
+  <li>
+<a href="https://dennissergeev.github.io"><i class="fa fa-globe -square fa-lg"></i>dennissergeev.github.io</a>
+</li>
+  <li>
+<a href="https://twitter.com/meteodenny"><i class="fa fa-twitter -square fa-lg"></i>meteodenny</a>
+</li>
+  <li>
+<a href="https://https://github.com/dennissergeev"><i class="fa fa-github -square fa-lg"></i>dennissergeev</a>
+</li>
+  <li>
+<a href="https://www.researchgate.net/profile/Denis_Sergeev2"><i class="ai ai-researchgate -square fa-lg"></i>Denis_Sergeev2</a>
+</li>
 </ul>
+
+
 </section>
     </div>
   </div>
@@ -131,11 +387,14 @@ My video
 
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
+      //width: '100%',
+      //height: '100%',
       Reveal.initialize({
         controls: true,
         progress: true,
         history: true,
         center: true,
+        slideNumber: "c/t",
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
 

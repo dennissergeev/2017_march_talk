@@ -21,6 +21,12 @@ transition: "fade"
 > - Polar lows are one of the most extreme events in the polar regions
 > - They pose danger to coastal infrastructure and offshore activities
 
+# Where do polar lows occur?
+<div class="w70">
+  <img src="media/pl_climatology.jpg">
+  <p>Source: MET.no, Noer</p>
+</div>
+
 
 #
 <div class="w50">
@@ -124,6 +130,29 @@ $$\Downarrow$$
 <iframe src="media/ctrl_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
 
 
+# How is it reflected in the backward trajectories?
+* We use LAGRANTO model to calculate trajectories backward in time, starting from the polar low centre
+* All the trajectories coloured by pressure value are shown below
+
+<div class="w100">
+  <img src="media/ctrl_nosvalbard_diff_traj_all.png">
+</div>
+<aside class="notes">
+<p>The majority of air parcels that ended up in the PL sector have north and north-west origin</p>
+<p>Atmospheric pressure does not change significantly along a single trajectory, implying the mesocyclones formed without interaction with the upper troposphere.</p>
+<p>Air from the Svalbard region moves mostly within mid-tropospheric levels</p>
+</aside>
+# How is it reflected in the backward trajectories?
+* Now only the trajectories that ended up in the boundary layer (below 850 hPa)
+
+<div class="w100">
+  <img src="media/ctrl_nosvalbard_diff_traj_below850hpa.png">
+</div>
+<aside class="notes">
+<p>Very few trajectories pass over Svalbard</p>
+</aside>
+
+
 # Experiment with "fake" sea ice
 <div class="w100">
   <img src="media/sic_oro_diff_ctrl_fake_seaice.png">
@@ -154,29 +183,28 @@ $$\Downarrow$$
 <iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
 
 
-# How is it reflected in the backward trajectories?
-{backward trajectories with and w/o level sampling} 
-
-
 # Summary
+* Polar lows are a mess, but MetUM simulates them well
 * Sea ice is more important than orography
 
 ## Future plans
 * Run the model for other polar low cases
+* 
 * Investigate how the sea ice cover affects polar low dynamics
 
 
 # Want to learn more about polar lows?
-* <a href="https://polarlows.wordpress.com/">Polar lows - the coolest weather on planet</a>
+* Flick through <a href="http://polarlow.met.no/stars-dat/">STARS catalogue</a>
+* Visit the blog <a href="https://polarlows.wordpress.com/">Polar lows - the coolest weather on planet</a>
 
 <iframe src="https://polarlows.wordpress.com/" style="width:100%; height:300px;"></iframe>
-* <a href="https://www.barentswatch.no/en/polar-low/">Real-time polar low forecasts via Barents Watch</a>
+* Stay alert with <a href="https://www.barentswatch.no/en/polar-low/">real-time polar low forecasts via Barents Watch</a>
 
 <iframe src="https://www.barentswatch.no/en/polar-low/" style="width:100%; height:300px;"></iframe>
 
 
 # Thanks!
-<center class="fragment fade-in" style="font-size:150%;">
+<center class="fragment fade-in" style="font-size:250%;">
 Questions?
 </center>
 
