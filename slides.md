@@ -109,11 +109,33 @@ transition: "fade"
 {backward trajectories}
 
 
-# Environmental factors
+# Environment factors
 Hypothesis:
 <blockquote>Svalbard's orography deflects the northerly flow</blockquote>
 $$\Downarrow$$
 <blockquote>Let's remove Svalbard!</blockquote>
+
+
+# Experiments without Svalbard
+
+
+# Removing Svalbard has little impact on the polar low development
+{wind field / vorticity difference}
+
+
+# How is it reflected in the backward trajectories?
+{backward trajectories with and w/o level sampling} 
+
+
+# The same, but for the sea ice
+
+
+# Summary
+* Sea ice is more important than orography
+
+## Future plans
+* Run the model for other polar low cases
+* Investigate how the sea ice cover affects polar low dynamics
 
 
 # Want to learn more about polar lows?
