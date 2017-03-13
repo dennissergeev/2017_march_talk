@@ -13,5 +13,8 @@ index.html : slides.md template.html
 serve:
 	python3 -m http.server 8000
 
+abstract: abstract.md
+	 pandoc $< -o $@.pdf --latex-engine=pdflatex
+
 clean:
 	-rm $(ALL)
