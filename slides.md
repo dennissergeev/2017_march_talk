@@ -47,6 +47,12 @@ transition: "fade"
 </aside>
 
 
+# "The most beautiful polar low"
+<div class="w100">
+  <img src="media/most_beautiful_pl.png">
+</div>
+
+
 #
 <div class="w50">
   <img src="media/olr_slp_vort_20130326_1800_0200_1300.jpg">
@@ -144,9 +150,11 @@ $$\Downarrow$$
 
 # without Svalbard
 * Removing Svalbard has little impact on the polar low development
-* Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
+* Shown are contours of vorticity ($\zeta>=10^{-3} s^{-1}$) at 950 hPa
 
-<!--<iframe src="media/ctrl_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
+<div class="w70">
+  <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_nosvalbard_pressure950_201303261200.png">
+</div>
 
 
 # How is it reflected in the backward trajectories?
@@ -182,33 +190,54 @@ $$\Downarrow$$
 
 # with "fake" sea ice
 * Perturbing sea ice cover has bigger impact: the cyclone is displaced more
-* Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
+* Shown are contours of vorticity ($\zeta>=10^{-3} s^{-1}$) at 950 hPa
 
-<!--<iframe src="media/ctrl_seaice450/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
+<div class="w70">
+  <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_seaice450_pressure950_201303261200.png">
+</div>
 
 
 # Experiment without Svalbard AND with "fake" sea ice
 <div class="w100">
   <img src="media/sic_oro_diff_ctrl_nosvalbard_fake_seaice.png">
 </div>
+<div class="w70">
 * Surface altitude of Svalbard is set to 0
 * Sea ice edge is a straight line
+</div>
+<div class="w20">
+  <img src="media/endisnear.gif">
+</div>
 
 
 # without Svalbard AND with "fake" sea ice
 * Two factors combined result in the biggest difference compared to CTRL run
-* Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
+* Shown are contours of vorticity ($\zeta>=10^{-3} s^{-1}$) at 950 hPa
 
-<!--<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
+<div class="w70">
+  <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_seaice450_nosvalbard_pressure950_201303261200.png">
+</div>
 
 
-# Summary
-* Polar lows are a mess, but MetUM simulates them well
-* Sea ice is more important than orography
+# Summary of sensitivity experiments
+<div class="w45">
+  <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_nosvalbard_seaice450_seaice450_nosvalbard_pressure950_201303261200.png">
+</div>
+<div class="w45">
+* The existence of the polar low is determined by the atmospheric dynamics
+* <em>But</em> the exact location and shape is influenced by surface factors
+* Sea ice cover is more important than orography
+</div>
+<br>
 
 ## Future plans
 * Run the model for other polar low cases
 * Investigate how the sea ice cover affects polar low dynamics
+
+<aside class="notes">
+* For a typical "merry-go-round" polar low 
+* Real-life polar lows are a mess, but MetUM simulates them well
+</aside>
 
 
 # Want to learn more about polar lows?
@@ -233,3 +262,5 @@ Questions?
   <li><a href="https://https://github.com/dennissergeev"><i class="fa fa-github -square fa-lg"></i>dennissergeev</a></li>
   <li><a href="https://www.researchgate.net/profile/Denis_Sergeev2"><i class="ai ai-researchgate -square fa-lg"></i>Denis_Sergeev2</a></li>
 </ul>
+
+<!--<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
