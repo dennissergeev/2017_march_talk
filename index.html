@@ -25,8 +25,7 @@
     <!--[if lt IE 9]>
     <script src="reveal.js/lib/js/html5shiv.js"></script>
     <![endif]-->
-<!--    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
--->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
   <div class="reveal">
@@ -37,45 +36,63 @@
     <h2 class="author">Denis Sergeev</h2>
     <h3 class="date">13 March 2017</h3>
 <center>
-    <img src="media/uealogo.png" style="height:75px; margin:0px 50px;">
-    <img src="media/coaslogo.svg" style="height:75px; margin:0px 50px;">
-    <img src="media/bergenlogo.png" style="height:75px; margin:0px 50px;">
+    <img src="media/uealogo.png" style="height:75px; margin:100px 50px;">
+    <img src="media/coaslogo.svg" style="height:75px; margin:100px 50px;">
+    <img src="media/bergenlogo.png" style="height:75px; margin:100px 50px;">
 </center>
 </section>
 
-<section id="outline" class="slide level1">
-<h1>Outline</h1>
-<ul>
-<li>What are polar lows?</li>
-<li>Example: ACCACIA PL
-<ul>
-<li>Large-scale conditions?</li>
-<li>Satellite image + 3D image</li>
-<li>Backward trajectories</li>
-</ul></li>
-<li>Environment factors influencing PL development</li>
-<li>My current research: influence of orography and sea ice
-<ul>
-<li>Let's remove Svalbard!</li>
-<li>Some results of the sensitivity experiments</li>
-</ul></li>
-</ul>
-</section>
 <section id="what-are-polar-lows" class="slide level1">
 <h1>What are polar lows?</h1>
+<blockquote>
+<em>Polar lows</em> are small (<b>100–500 km</b> in diameter), short-lived maritime depressions with near-surface winds exceeding <b>15 m/s</b>
+</blockquote>
 <ul>
-<li class="fragment">Polar lows are one of the most extreme events in the polar regions</li>
-<li class="fragment">They pose danger to coastal infrastructure and offshore activities</li>
+<li>A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific</li>
+<li>Typical conditions give an <a href="http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/">estimate</a> of roughly <span class="math inline">\(10^{18} J\)</span> of the total <b>kinetic energy</b>.</li>
+<li>Their main energy sources are: air-sea heat fluxes, condensational heating; available potential and kinetic energy of large-scale flow.</li>
 </ul>
+<div class="w30 fragment">
+<img src="media/cao_metno.jpg">
+<p class="lcred">
+<a href="https://twitter.com/Meteorologene">MET Norway</a>
+</p>
+</div>
+<div class="w30 fragment">
+<img src="media/polarlow_metno.jpg">
+<p class="lcred">
+<a href="https://twitter.com/Meteorologene">MET Norway</a>
+</p>
+</div>
+<div class="w30 fragment">
+<img src="media/polarlow_barentssea.jpg">
+<p class="lcred">
+<a href="http://www.sat.dundee.ac.uk">NERC Satellite Receiving Station</a>
+</p>
+</div>
+<aside class="notes">
+</aside>
 </section>
 <section id="where-do-polar-lows-occur" class="slide level1">
 <h1>Where do polar lows occur?</h1>
-<div class="w70">
+<ul>
+<li>In the regions of frequent <b>cold-air outbreaks</b></li>
+<li>Hundreds of polar mesoscale cyclones per year in each region</li>
+<li>More intense polar lows occur less frequently (in the Northern Hemisphere - mostly in winter)</li>
+</ul>
+<div class="w60">
 <img src="media/pl_climatology.jpg">
 <p>
-Source: MET.no, Noer
+Source: MET.no
 </p>
 </div>
+<aside class="notes">
+<ul>
+<li>There are some favourable locations for the development of polar lows.</li>
+<li>Typically in the regions prone to CAOs, where relatively cold continental air is advected over warm ice-free waters.</li>
+<li>Satellite-based climatological studies show that there are typically hundreds od PMCs per year</li>
+</ul>
+</aside>
 </section>
 <section id="section" class="slide level1">
 <h1></h1>
@@ -95,26 +112,12 @@ Relative vorticity (<span class="math inline">\(\zeta\)</span>), pressure contou
 </p>
 </div>
 <aside class="notes">
-<h5>
-Growing stage
-</h5>
 <ul>
-<li>Convergence of two branches of CAO</li>
-<li>High positive relative vorticity filament in the lee of Svalbard</li>
-</ul>
-<h5>
-Mature stage
-</h5>
-<ul>
-<li>Instability waves merge into the dominant mesocyclone</li>
-</ul>
-<h5>
-Initia stage
-</h5>
-<ul>
-<li>The PL travels SE around the synoptic low</li>
-<li>The core disintegrates into smaller disturbances</li>
-<li>Remnants of the vortex get absorbed by a new stronger cyclone</li>
+<li>In the early spring of 2013, atmosphere was favourable for PL genesis, and chains of mesoscale disturbances appeared around the synoptic low, forming the so-called merry-go-round signature, visible both in satellite and simulated cloud imagery, but perhaps even more vividly - in the vorticity field shown here</li>
+<li>The CAO converged into a high vorticity filament</li>
+<li>It was undulating and producing shear-instability waves</li>
+<li>The vorticity filament bent in half and curled up into a PL</li>
+<li>In the later stage of its life, the PL broke down into a bunch of smaller disturbances. Its remnants were absorbed by a new stronger PL that formed close to the coast of Norway.</li>
 </ul>
 </aside>
 </section>
@@ -142,6 +145,12 @@ Satellite data: AVHRR, CloudSat, ASCAT
 </li>
 </ul>
 </div>
+<aside class="notes">
+<ul>
+<li>During the ACCACIA field campaign, the polar low was probed by instrumented aircraft</li>
+<li>The red box in the figure shows the modelling domain of the UK Met Office Unified model</li>
+</ul>
+</aside>
 </section>
 <section id="flying-through-the-cloud-wall" class="slide level1">
 <h1>Flying through the cloud wall</h1>
@@ -152,8 +161,8 @@ Satellite data: AVHRR, CloudSat, ASCAT
 <p><video src="media/shear_line_flight.mp4" width="100%" muted controls></video></p>
 </div>
 </section>
-<section id="accacia-polar-low" class="slide level1">
-<h1>ACCACIA Polar Low</h1>
+<section id="accacia-polar-low-modis-picture" class="slide level1">
+<h1>ACCACIA Polar Low: MODIS picture</h1>
 <div class="img-with-text" style="float: right;">
 <img src="media/modis.jpg" style="height:500px; width:600px;">
 <p>
@@ -161,17 +170,18 @@ NEODAAS NERC Satellite Receiving Station, Dundee University
 </p>
 </div>
 <aside class="notes">
-<p>
-Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.
-</p>
+Not only we used the aircraft and satellite observations, but we also ran the Met Office's numerical model
 </aside>
 </section>
-<section id="accacia-polar-low-1" class="slide level1">
-<h1>ACCACIA Polar low</h1>
+<section id="met-office-unified-model-simulation" class="slide level1">
+<h1>Met Office Unified Model simulation</h1>
 <div style="float: right;">
 <p><img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;"></p>
 </div>
 <aside class="notes">
+<p>
+Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.
+</p>
 <p>
 Following the green vectors of the wind field, one can see the dramatic wind shear at the forefront of the cold‐air outbreak, and the intense polar low that was spawned.
 </p>
@@ -224,8 +234,7 @@ Let's remove Svalbard!
 <li>Removing Svalbard has little impact on the polar low development</li>
 <li>Shown are isosurfaces of vorticity (<span class="math inline">\(\zeta=5\times10^{-4} s^{-1}\)</span>)</li>
 </ul>
-<iframe src="media/ctrl_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px">
-</iframe>
+<!--<iframe src="media/ctrl_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
 </section>
 <section id="how-is-it-reflected-in-the-backward-trajectories" class="slide level1">
 <h1>How is it reflected in the backward trajectories?</h1>
@@ -278,8 +287,7 @@ Very few trajectories pass over Svalbard
 <li>Perturbing sea ice cover has bigger impact: the cyclone is displaced more</li>
 <li>Shown are isosurfaces of vorticity (<span class="math inline">\(\zeta=5\times10^{-4} s^{-1}\)</span>)</li>
 </ul>
-<iframe src="media/ctrl_seaice450/scene.html" class="stretched" style="height:500px; width:700px">
-</iframe>
+<!--<iframe src="media/ctrl_seaice450/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
 </section>
 <section id="experiment-without-svalbard-and-with-fake-sea-ice" class="slide level1">
 <h1>Experiment without Svalbard AND with &quot;fake&quot; sea ice</h1>
@@ -297,8 +305,7 @@ Very few trajectories pass over Svalbard
 <li>Two factors combined result in the biggest difference compared to CTRL run</li>
 <li>Shown are isosurfaces of vorticity (<span class="math inline">\(\zeta=5\times10^{-4} s^{-1}\)</span>)</li>
 </ul>
-<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px">
-</iframe>
+<!--<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
 </section>
 <section id="summary" class="slide level1">
 <h1>Summary</h1>
@@ -309,7 +316,6 @@ Very few trajectories pass over Svalbard
 <h2 id="future-plans">Future plans</h2>
 <ul>
 <li>Run the model for other polar low cases</li>
-<li></li>
 <li>Investigate how the sea ice cover affects polar low dynamics</li>
 </ul>
 </section>
@@ -368,10 +374,10 @@ Questions?
         slideNumber: "c/t",
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
-        math: {
-            mathjax: 'mathjax/MathJax.js',
-            config: 'TeX-AMS_HTML-full',
-          },
+        //math: {
+        //    mathjax: 'mathjax/MathJax.js',
+        //    config: 'TeX-AMS_HTML-full',
+        //  },
 
         // Optional libraries used to extend on reveal.js
         dependencies: [

@@ -7,16 +7,27 @@ transition: "fade"
 ---
 
 # What are polar lows?
-> - Polar lows are one of the most extreme phenomena in polar regions
-<blockquote class="fragment">
+<blockquote>
 <em>Polar lows</em> are small (<b>100–500 km</b> in diameter), short-lived maritime depressions with near-surface winds exceeding <b>15 m/s</b>
 </blockquote>
-> - A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific
-> - Typical conditions give an [estimate](http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/) of roughly $10^{18} J$ of the total <b>kinetic energy</b>.
-> - Their main energy sources are: air-sea heat fluxes, condensational heating; available potential and kinetic energy of large-scale flow.
+- A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific
+- Typical conditions give an [estimate](http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/) of roughly $10^{18} J$ of the total <b>kinetic energy</b>.
+- Their main energy sources are: air-sea heat fluxes, condensational heating; available potential and kinetic energy of large-scale flow.
+
+<div class="w30 fragment">
+  <img src="media/cao_metno.jpg">
+  <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
+</div>
+<div class="w30 fragment">
+  <img src="media/polarlow_metno.jpg">
+  <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
+</div>
+<div class="w30 fragment">
+  <img src="media/polarlow_barentssea.jpg">
+  <p class="lcred"><a href="http://www.sat.dundee.ac.uk">NERC Satellite Receiving Station</a></p>
+</div>
 
 <aside class="notes">
-Through the centuries seafarers in the Nordic Seas have told tales of unexpected encounters with severe storms that appeared out of nowhere to wreak heavy snowfall, fierce wind and huge waves on their ships. With the advent of satellites, it was noticed that these unpredictable low-pressure vortices are ubiquitous over high-latitude seas, and a name polar low was proposed. You may hear of them as comma clouds, explosive mesocyclones, Arctic instability lows, Antarctic coastal vortices and, when having a clear eye in the centre – Arctic hurricanes
 </aside>
 
 # Where do polar lows occur?
@@ -47,17 +58,11 @@ Through the centuries seafarers in the Nordic Seas have told tales of unexpected
   <p>Relative vorticity ($\zeta$), pressure contours, and precipitation</p>
 </div>
 <aside class="notes">
-  <h5>Growing stage</h5>
-  * Convergence of two branches of CAO
-  * High positive relative vorticity filament in the lee of Svalbard
-  
-  <h5>Mature stage</h5>
-  * Instability waves merge into the dominant mesocyclone
-  
-  <h5>Initia stage</h5>
-  * The PL travels SE around the synoptic low
-  * The core disintegrates into smaller disturbances
-  * Remnants of the vortex get absorbed by a new stronger cyclone
+* In the early spring of 2013, atmosphere was favourable for PL genesis, and chains of mesoscale disturbances appeared around the synoptic low, forming the so-called merry-go-round signature, visible both in satellite and simulated cloud imagery, but perhaps even more vividly - in the vorticity field shown here
+* The CAO converged into a high vorticity filament
+* It was undulating and producing shear-instability waves
+* The vorticity filament bent in half and curled up into a PL
+* In the later stage of its life, the PL broke down into a bunch of smaller disturbances. Its remnants were absorbed by a new stronger PL that formed close to the coast of Norway.
 </aside>
 
 
@@ -77,6 +82,11 @@ Through the centuries seafarers in the Nordic Seas have told tales of unexpected
   </ul>
 </div>
 
+<aside class="notes">
+* During the ACCACIA field campaign, the polar low was probed by instrumented aircraft
+* The red box in the figure shows the modelling domain of the UK Met Office Unified model
+</aside>
+
 
 # Flying through the cloud wall
 <div class="w25">
@@ -87,21 +97,22 @@ Through the centuries seafarers in the Nordic Seas have told tales of unexpected
 </div>
 
 
-# ACCACIA Polar Low
+# ACCACIA Polar Low: MODIS picture
 <div class="img-with-text" style="float: right;">
   <img src="media/modis.jpg" style="height:500px; width:600px;">
   <p>NEODAAS NERC Satellite Receiving Station, Dundee University</p>
 </div>
 <aside class="notes">
-  <p>Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.</p>
+  Not only we used the aircraft and satellite observations, but we also ran the Met Office's numerical model
 </aside>
 
 
-# ACCACIA Polar low
+# Met Office Unified Model simulation
 <div style="float: right;">
   <img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;">
 </div>
 <aside class="notes">
+  <p>Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.</p>
   <p>Following the green vectors of the wind field, one can see the dramatic wind shear at the forefront of the cold‐air outbreak, and the intense polar low that was spawned.</p>
   <p>Met Office NWP model reproduced the structure and the convective processes within the polar low, as demonstrated by the 3D images of total cloud (white) and frozen (cyan) water.</p>
 </aside>
