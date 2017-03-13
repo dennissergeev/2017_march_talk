@@ -49,6 +49,7 @@ transition: "fade"
 
 # "The most beautiful polar low"
 <div class="w100">
+  <p class="lcred">[Nordeng and Rasmussen, 1992]</p>
   <img src="media/most_beautiful_pl.png">
 </div>
 
@@ -58,17 +59,22 @@ transition: "fade"
   <img src="media/olr_slp_vort_20130326_1800_0200_1300.jpg">
 </div>
 <div class="w45">
+  <h6 style="font-size:50%;">(not so beautiful)</h6>
   <h3>Example from March 2013</h3>
   <p>Along the cyclone track:</p>
   <img src="media/pl_track_vort_precip_slp.gif">
-  <p>Relative vorticity ($\zeta$), pressure contours, and precipitation</p>
+  <p>Relative vorticity ($\zeta$), pressure, and precipitation (<span style="color:#006600">green</span>)</p>
 </div>
 <aside class="notes">
-* In the early spring of 2013, atmosphere was favourable for PL genesis, and chains of mesoscale disturbances appeared around the synoptic low, forming the so-called merry-go-round signature, visible both in satellite and simulated cloud imagery, but perhaps even more vividly - in the vorticity field shown here
-* The CAO converged into a high vorticity filament
-* It was undulating and producing shear-instability waves
+* This slide shows an example of a polar low that developed over the Norwegian Sea in late March 2013
+* You can either look at the evolution of the clouds on the right (time goes from top to the bottom row)
+* On the left the same PL is shown following the track
+* Chains of mesoscale disturbances appeared around the synoptic low, forming the so-called merry-go-round signature
+* The northerly flow converged into a line of intense vorticity (brownish colours)
+* It was undulating and producing small instability waves
 * The vorticity filament bent in half and curled up into a PL
-* In the later stage of its life, the PL broke down into a bunch of smaller disturbances. Its remnants were absorbed by a new stronger PL that formed close to the coast of Norway.
+* Later, the PL broke down into a bunch of smaller disturbances
+* Its remnants were absorbed by a new stronger PL that formed close to the coast of Norway.
 </aside>
 
 
@@ -84,13 +90,16 @@ transition: "fade"
 <div class="w55">
   <img src="media/all_obs_map_with_globe.jpg">
   <ul>
-  <li>Satellite data: AVHRR, CloudSat, ASCAT</li>
+  <li>+ satellite data: AVHRR, CloudSat, ASCAT</li>
   </ul>
 </div>
 
 <aside class="notes">
-* During the ACCACIA field campaign, the polar low was probed by instrumented aircraft
-* The red box in the figure shows the modelling domain of the UK Met Office Unified model
+* So why is this case worth investigating? 
+* Plus, shear-line cases are a bit underrepresented in PL studies. 
+* But at the same time this case is typical of many mesoscale vortices forming on the edge of a cold-air outbreak.
+* There are a lot of observations available, because it was probed by instrumented aircraft during the ACCACIA field campaign (purple line on the map)
+* And it is rare: even today, there are only about a dozen of PLs observed with instrumented aircraft
 </aside>
 
 
@@ -102,6 +111,11 @@ transition: "fade"
   <video src="media/shear_line_flight.mp4" width="100%" muted controls></video>
 </div>
 
+<aside class="notes">
+* The dramatic change in weather conditions is evident from this video taken by one of the aircraft cameras.
+* You can witness the windy and stormy conditions in the cold air mass, but as the aircraft crosses the cloud wall, the atmosphere becomes very calm and clear.
+</aside>
+
 
 # ACCACIA Polar Low: MODIS picture
 <div class="img-with-text" style="float: right;">
@@ -109,7 +123,8 @@ transition: "fade"
   <p>NEODAAS NERC Satellite Receiving Station, Dundee University</p>
 </div>
 <aside class="notes">
-  Not only we used the aircraft and satellite observations, but we also ran the Met Office's numerical model
+* Not only we used the aircraft and satellite observations (such as this impressive MODIS RGB image)
+* we also ran the Met Office numerical model
 </aside>
 
 
@@ -118,9 +133,10 @@ transition: "fade"
   <img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;">
 </div>
 <aside class="notes">
-  <p>Maritime air mass are swept away by colder Arctic air, as highlighted by blue‐orange temperature field.</p>
-  <p>Following the green vectors of the wind field, one can see the dramatic wind shear at the forefront of the cold‐air outbreak, and the intense polar low that was spawned.</p>
-  <p>Met Office NWP model reproduced the structure and the convective processes within the polar low, as demonstrated by the 3D images of total cloud (white) and frozen (cyan) water.</p>
+  <p>The 3D image from the model shows how the polar low is forming on the edge of a CAO</p>
+  <p>Temperature contrast is indicated by blue‐orange colours</p>
+  <p>Following the green vectors of the wind field, you can see the dramatic change in wind speed</p>
+  <p>The model also reproduced the convective clouds (white colours)</p>
 </aside>
 
 
@@ -133,11 +149,31 @@ transition: "fade"
 
 
 
-# Environment factors
-Hypothesis:
+# Does geography play a role in polar low formation?
+<div class="w45">
+Hypothesis 1:
 <blockquote>Svalbard's orography deflects the northerly flow</blockquote>
 $$\Downarrow$$
 <blockquote>Let's remove Svalbard!</blockquote>
+</div>
+
+<div class="w45">
+Hypothesis 2:
+<blockquote>Several studies indicate that sea ice cover plays a significant role</blockquote>
+$$\Downarrow$$
+<blockquote>Let's flatten out the sea ice edge!</blockquote>
+</div>
+
+### Why is this important?
+* Climate change in the Arctic can lead to a dramatic sea ice retreat
+* It is still uncertain how it will affect polar low climatology
+
+<aside class="notes">
+* When I looked at the clouds and convergence line in the lee of Svalbard, it seemed that the northerly flow was deflected by Svalbard
+* So I decided to change the orography mask in the model and see what happens
+* I started with lowering the Svalbard mountains by a certain factor
+* Then I got angry and just purged Svalbard from the land mask completely
+</aside>
 
 
 # Experiment without Svalbard
@@ -205,6 +241,7 @@ $$\Downarrow$$
 * Surface altitude of Svalbard is set to 0
 * Sea ice edge is a straight line
 </div>
+<br>
 <div class="w20">
   <img src="media/endisnear.gif">
 </div>
