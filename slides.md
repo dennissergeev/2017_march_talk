@@ -5,27 +5,35 @@ date: 13 March 2017
 transition: "fade"
 
 ---
-# Outline
-* What are polar lows?
-* Example: ACCACIA PL
-    - Large-scale conditions?
-    - Satellite image + 3D image
-    - Backward trajectories
-* Environment factors influencing PL development
-* My current research: influence of orography and sea ice
-    - Let's remove Svalbard!
-    - Some results of the sensitivity experiments
-
 
 # What are polar lows?
-> - Polar lows are one of the most extreme events in the polar regions
-> - They pose danger to coastal infrastructure and offshore activities
+> - Polar lows are one of the most extreme phenomena in polar regions
+<blockquote class="fragment">
+<em>Polar lows</em> are small (<b>100–500 km</b> in diameter), short-lived maritime depressions with near-surface winds exceeding <b>15 m/s</b>
+</blockquote>
+> - A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific
+> - Typical conditions give an [estimate](http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/) of roughly $10^{18} J$ of the total <b>kinetic energy</b>.
+> - Their main energy sources are: air-sea heat fluxes, condensational heating; available potential and kinetic energy of large-scale flow.
+
+<aside class="notes">
+Through the centuries seafarers in the Nordic Seas have told tales of unexpected encounters with severe storms that appeared out of nowhere to wreak heavy snowfall, fierce wind and huge waves on their ships. With the advent of satellites, it was noticed that these unpredictable low-pressure vortices are ubiquitous over high-latitude seas, and a name polar low was proposed. You may hear of them as comma clouds, explosive mesocyclones, Arctic instability lows, Antarctic coastal vortices and, when having a clear eye in the centre – Arctic hurricanes
+</aside>
 
 # Where do polar lows occur?
-<div class="w70">
+* In the regions of frequent <b>cold-air outbreaks</b>
+* Hundreds of polar mesoscale cyclones per year in each region
+* More intense polar lows occur less frequently (in the Northern Hemisphere - mostly in winter)
+
+<div class="w60">
   <img src="media/pl_climatology.jpg">
-  <p>Source: MET.no, Noer</p>
+  <p>Source: MET.no</p>
 </div>
+
+<aside class="notes">
+* There are some favourable locations for the development of polar lows.
+* Typically in the regions prone to CAOs, where relatively cold continental air is advected over warm ice-free waters.
+* Satellite-based climatological studies show that there are typically hundreds od PMCs per year
+</aside>
 
 
 #
@@ -127,7 +135,7 @@ $$\Downarrow$$
 * Removing Svalbard has little impact on the polar low development
 * Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
 
-<iframe src="media/ctrl_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+<!--<iframe src="media/ctrl_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
 
 
 # How is it reflected in the backward trajectories?
@@ -165,7 +173,7 @@ $$\Downarrow$$
 * Perturbing sea ice cover has bigger impact: the cyclone is displaced more
 * Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
 
-<iframe src="media/ctrl_seaice450/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+<!--<iframe src="media/ctrl_seaice450/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
 
 
 # Experiment without Svalbard AND with "fake" sea ice
@@ -180,7 +188,7 @@ $$\Downarrow$$
 * Two factors combined result in the biggest difference compared to CTRL run
 * Shown are isosurfaces of vorticity ($\zeta=5\times10^{-4} s^{-1}$)
 
-<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+<!--<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
 
 
 # Summary
@@ -189,7 +197,6 @@ $$\Downarrow$$
 
 ## Future plans
 * Run the model for other polar low cases
-* 
 * Investigate how the sea ice cover affects polar low dynamics
 
 
