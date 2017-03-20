@@ -1,5 +1,6 @@
 ---
 title: Polar lows
+subtitle: "Live demo: tiny.cc/ceeda-polar-lows"
 author: Denis Sergeev, I. Renfrew, T. Spengler, S. Dorling
 date: 13 March 2017
 transition: "fade"
