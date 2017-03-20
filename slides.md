@@ -1,6 +1,6 @@
 ---
 title: Polar lows
-author: Denis Sergeev, I. Renfrew, T. Spengler
+author: Denis Sergeev, I. Renfrew, T. Spengler, S. Dorling
 date: 13 March 2017
 transition: "fade"
 
