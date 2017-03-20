@@ -142,7 +142,7 @@ transition: "fade"
 
 #
 <blockquote>The <b>Met Office Unified Model</b> reproduced the polar low reasonably well</blockquote>
-<p style="font-size: 50%;">(more info in this paper:)</p>
+<p style="font-size: 50%;">(more info in <a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full">this paper</a>:)</p>
 <iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>
 <p style="font-size: 200%;">$$\Downarrow$$</p>
 <blockquote>We use it in further analysis of the polar low</blockquote>
