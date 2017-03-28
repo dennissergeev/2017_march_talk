@@ -25,7 +25,6 @@
     <!--[if lt IE 9]>
     <script src="reveal.js/lib/js/html5shiv.js"></script>
     <![endif]-->
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
 </head>
 <body>
   <div class="reveal">
@@ -50,7 +49,7 @@
 </blockquote>
 <ul>
 <li>A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific</li>
-<li>Typical conditions give an <a href="http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/">estimate</a> of roughly <span class="math inline">\(10^{18} J\)</span> of the total <b>kinetic energy</b>.</li>
+<li>Typical conditions give an <a href="http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/">estimate</a> of roughly <span class="math inline">10<sup>18</sup><em>J</em></span> of the total <b>kinetic energy</b>.</li>
 <li>Their main energy sources are: air-sea heat fluxes, condensational heating; available potential and kinetic energy of large-scale flow.</li>
 </ul>
 <div class="w30 fragment">
@@ -121,7 +120,7 @@ Along the cyclone track:
 </p>
 <img src="media/pl_track_vort_precip_slp.gif">
 <p>
-Relative vorticity (<span class="math inline">\(\zeta\)</span>), pressure, and precipitation (<span style="color:#006600">green</span>)
+Relative vorticity (<span class="math inline"><em>ζ</em></span>), pressure, and precipitation (<span style="color:#006600">green</span>)
 </p>
 </div>
 <aside class="notes">
@@ -235,7 +234,7 @@ The <b>Met Office Unified Model</b> reproduced the polar low reasonably well
 <iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;">
 </iframe>
 <p style="font-size: 200%;">
-<span class="math display">\[\Downarrow\]</span>
+<br /><span class="math display">⇓</span><br />
 </p>
 <blockquote>
 We use it in further analysis of the polar low
@@ -248,7 +247,7 @@ Hypothesis 1:
 <blockquote>
 Svalbard's orography deflects the northerly flow
 </blockquote>
-<span class="math display">\[\Downarrow\]</span>
+<br /><span class="math display">⇓</span><br />
 <blockquote>
 Let's remove Svalbard!
 </blockquote>
@@ -258,7 +257,7 @@ Hypothesis 2:
 <blockquote>
 Several studies indicate that sea ice cover plays a significant role
 </blockquote>
-<span class="math display">\[\Downarrow\]</span>
+<br /><span class="math display">⇓</span><br />
 <blockquote>
 Let's flatten out the sea ice edge!
 </blockquote>
@@ -291,7 +290,7 @@ Let's flatten out the sea ice edge!
 <h1>without Svalbard</h1>
 <ul>
 <li>Removing Svalbard has little impact on the polar low development</li>
-<li>Shown are contours of vorticity (<span class="math inline">\(\zeta&gt;=10^{-3} s^{-1}\)</span>) at 950 hPa</li>
+<li>Shown are contours of vorticity (<span class="math inline"><em>ζ</em> &gt; =10<sup>−3</sup><em>s</em><sup>−1</sup></span>) at 950 hPa</li>
 </ul>
 <div class="w70">
 <p><img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_nosvalbard_pressure950_201303261200.png"></p>
@@ -346,7 +345,7 @@ Very few trajectories pass over Svalbard
 <h1>with &quot;fake&quot; sea ice</h1>
 <ul>
 <li>Perturbing sea ice cover has bigger impact: the cyclone is displaced more</li>
-<li>Shown are contours of vorticity (<span class="math inline">\(\zeta&gt;=10^{-3} s^{-1}\)</span>) at 950 hPa</li>
+<li>Shown are contours of vorticity (<span class="math inline"><em>ζ</em> &gt; =10<sup>−3</sup><em>s</em><sup>−1</sup></span>) at 950 hPa</li>
 </ul>
 <div class="w70">
 <p><img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_seaice450_pressure950_201303261200.png"></p>
@@ -372,7 +371,7 @@ Very few trajectories pass over Svalbard
 <h1>without Svalbard AND with &quot;fake&quot; sea ice</h1>
 <ul>
 <li>Two factors combined result in the biggest difference compared to CTRL run</li>
-<li>Shown are contours of vorticity (<span class="math inline">\(\zeta&gt;=10^{-3} s^{-1}\)</span>) at 950 hPa</li>
+<li>Shown are contours of vorticity (<span class="math inline"><em>ζ</em> &gt; =10<sup>−3</sup><em>s</em><sup>−1</sup></span>) at 950 hPa</li>
 </ul>
 <div class="w70">
 <p><img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_seaice450_nosvalbard_pressure950_201303261200.png"></p>
@@ -456,16 +455,17 @@ Questions?
         slideNumber: "c/t",
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
-        //math: {
-        //    mathjax: 'mathjax/MathJax.js',
-        //    config: 'TeX-AMS_HTML-full',
-        //  },
+        math: {
+            mathjax: 'MathJax/MathJax.js',
+            config: 'TeX-AMS_HTML-full',
+          },
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
           { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
           { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+	  { src: 'reveal.js/plugin/math/math.js', async: true },
 //          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
 //          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 ]});
