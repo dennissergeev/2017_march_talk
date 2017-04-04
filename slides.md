@@ -144,7 +144,8 @@ transition: "fade"
 #
 <blockquote>The <b>Met Office Unified Model</b> reproduced the polar low reasonably well</blockquote>
 <p style="font-size: 50%;">(more info in <a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full">this paper</a>:)</p>
-<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>
+<img src="media/paper.png" style="width:100%; height: 400px;">
+<!--<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>-->
 <p style="font-size: 200%;">$$\Downarrow$$</p>
 <blockquote>We use it in further analysis of the polar low</blockquote>
 
@@ -300,4 +301,5 @@ Questions?
   <li><a href="https://dennissergeev.github.io"><i class="fa fa-globe -square fa-lg"></i>Website: dennissergeev.github.io</a></li>
 </ul>
 
-<!--<iframe src="media/ctrl_seaice450_nosvalbard/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
+# bla
+<iframe src="media/scene/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
