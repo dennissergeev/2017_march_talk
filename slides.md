@@ -4,7 +4,6 @@ author:
 - Denis Sergeev,
 - I. Renfrew, T. Spengler, S. Dorling
 date: CEEDA conference | Cambridge, UK | 11 April 2017
-transition: "fade"
 demo: "tiny.cc/ceeda-polar-lows"
 
 ---
@@ -120,7 +119,7 @@ demo: "tiny.cc/ceeda-polar-lows"
 </aside>
 
 
-# ACCACIA Polar Low: MODIS picture
+# ACCACIA Polar Low: MODIS picture {data-transition="fade-out convex-in"}
 <div class="img-with-text" style="float: right;">
   <img src="media/modis.jpg" style="height:500px; width:600px;">
   <p>NEODAAS NERC Satellite Receiving Station, Dundee University</p>
@@ -131,7 +130,7 @@ demo: "tiny.cc/ceeda-polar-lows"
 </aside>
 
 
-# Met Office Unified Model simulation
+# Met Office Unified Model simulation {data-transition="fade-in convex-out"}
 <div style="float: right;">
   <img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;">
 </div>
@@ -144,13 +143,14 @@ demo: "tiny.cc/ceeda-polar-lows"
 
 
 #
-<blockquote>The <b>Met Office Unified Model</b> reproduced the polar low <span class="fragment highlight-red">reasonably well</span></blockquote>
+<blockquote>The <b>Met Office Unified Model</b> reproduced<br>the polar low <span class="fragment highlight-red">reasonably well</span></blockquote>
 <p style="font-size: 75%;" class="fragment">more info in this paper:</p>
 <a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full" class="fragment"><img src="media/paper.png" style="height: 300px;"></a>
 <!--<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>-->
-<span style="font-size: 200%;">$$\Downarrow$$</span>
-<blockquote class="fragment highlight-red">We use it in further analysis of the polar low</blockquote>
-
+<span class="fragment">$$\Downarrow$$</span>
+<span class="fragment">
+<blockquote>We use it in further analysis of the polar low</blockquote>
+</span>
 
 #
 <h1 style="font-size: 300%; margin: 100px 0 150px 0;">Current research</h1>
@@ -297,8 +297,9 @@ Questions?
   <li><a href="https://twitter.com/meteodenny"><i class="fa fa-twitter -square fa-lg"></i>Twitter: meteodenny</a></li>
   <li><a href="https://https://github.com/dennissergeev"><i class="fa fa-github -square fa-lg"></i>GitHub: dennissergeev</a></li>
   <li><a href="https://dennissergeev.github.io"><i class="fa fa-globe -square fa-lg"></i>Website: dennissergeev.github.io</a></li>
+  <li><a href="https://tiny.cc/ceeda-polar-lows"><i class="fa fa-play-circle -square fa-lg"></i>This presentation: tiny.cc/ceeda-polar-lows</a></li>
 </ul>
-
+<br>
 <div class="w30">
 <img src="media/fun/shia.gif">
 </div>

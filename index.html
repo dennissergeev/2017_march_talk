@@ -189,7 +189,7 @@ Data were gathered instrumented aircraft and dropsondes during ACCACIA field cam
 </ul>
 </aside>
 </section>
-<section id="accacia-polar-low-modis-picture" class="slide level1">
+<section id="accacia-polar-low-modis-picture" class="slide level1" data-transition="fade-out convex-in">
 <h1>ACCACIA Polar Low: MODIS picture</h1>
 <div class="img-with-text" style="float: right;">
 <img src="media/modis.jpg" style="height:500px; width:600px;">
@@ -204,7 +204,7 @@ NEODAAS NERC Satellite Receiving Station, Dundee University
 </ul>
 </aside>
 </section>
-<section id="met-office-unified-model-simulation" class="slide level1">
+<section id="met-office-unified-model-simulation" class="slide level1" data-transition="fade-in convex-out">
 <h1>Met Office Unified Model simulation</h1>
 <div style="float: right;">
 <p><img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;"></p>
@@ -227,15 +227,16 @@ The model also reproduced the convective clouds (white colours)
 <section id="section-1" class="slide level1">
 <h1></h1>
 <blockquote>
-The <b>Met Office Unified Model</b> reproduced the polar low <span class="fragment highlight-red">reasonably well</span>
+The <b>Met Office Unified Model</b> reproduced<br>the polar low <span class="fragment highlight-red">reasonably well</span>
 </blockquote>
 <p style="font-size: 75%;" class="fragment">
 more info in this paper:
 </p>
-<a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full" class="fragment"><img src="media/paper.png" style="height: 300px;"></a> <!--<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>--> <span style="font-size: 200%;"><br /><span class="math display">⇓</span><br /></span>
-<blockquote class="fragment highlight-red">
+<a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full" class="fragment"><img src="media/paper.png" style="height: 300px;"></a> <!--<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>--> <span class="fragment"><br /><span class="math display">⇓</span><br /></span> <span class="fragment">
+<blockquote>
 We use it in further analysis of the polar low
 </blockquote>
+<p></span></p>
 </section>
 <section id="section-2" class="slide level1">
 <h1></h1>
@@ -268,12 +269,13 @@ Let's change the sea ice edge!
 </blockquote>
 <p></span></p>
 </div>
-<h3 style="font-size: 80%">
+<span class="fragment">
+<h3 style="font-size: 120%">
 Why is this important?
 </h3>
 <ul>
 <li>Climate change in the Arctic can lead to a dramatic sea ice retreat</li>
-<li>It is still uncertain how it will affect polar low climatology</li>
+<li>It is still uncertain how it will affect polar low climatology </span></li>
 </ul>
 <aside class="notes">
 <ul>
@@ -407,9 +409,6 @@ Very few trajectories pass over Svalbard
 </section>
 <section id="future-plans" class="slide level1">
 <h1>Future plans</h1>
-<h2 class="fragment">
-Future plans
-</h2>
 <ul>
 <li>Run the model for other polar low cases</li>
 <li>Investigate how <em>exactly</em> the sea ice cover affects polar low dynamics</li>
@@ -421,10 +420,6 @@ Future plans
 <center class="fragment fade-in" style="font-size:250%;">
 Questions?
 </center>
-<div class="w30">
-<p><img src="media/fun/shia.gif"></p>
-</div>
-<p><br></p>
 <ul class="icon-list">
 <li>
 <a href="https://twitter.com/meteodenny"><i class="fa fa-twitter -square fa-lg"></i>Twitter: meteodenny</a>
@@ -435,7 +430,15 @@ Questions?
 <li>
 <a href="https://dennissergeev.github.io"><i class="fa fa-globe -square fa-lg"></i>Website: dennissergeev.github.io</a>
 </li>
+<li>
+<a href="https://tiny.cc/ceeda-polar-lows"><i class="fa fa-play-circle -square fa-lg"></i>This presentation: tiny.cc/ceeda-polar-lows</a>
+</li>
 </ul>
+<br>
+<div class="w30">
+<p><img src="media/fun/shia.gif"></p>
+</div>
+<p><br></p>
 <!-- bla
 <iframe src="media/scene/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
 </section>
@@ -459,7 +462,7 @@ Questions?
         center: true,
         slideNumber: "c/t",
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
         math: {
             mathjax: 'MathJax/MathJax.js',
             config: 'TeX-AMS_HTML-full',
