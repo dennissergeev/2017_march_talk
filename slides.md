@@ -1,9 +1,11 @@
 ---
-title: Polar lows
-subtitle: "Live demo: tiny.cc/ceeda-polar-lows"
-author: Denis Sergeev, I. Renfrew, T. Spengler, S. Dorling
-date: 13 March 2017
+title: Polar lows<br>and how background environment can influence their development
+author:
+- Denis Sergeev,
+- I. Renfrew, T. Spengler, S. Dorling
+date: CEEDA conference | Cambridge, UK | 11 April 2017
 transition: "fade"
+demo: "tiny.cc/ceeda-polar-lows"
 
 ---
 
@@ -64,7 +66,7 @@ transition: "fade"
   <h3>Example from March 2013</h3>
   <p>Along the cyclone track:</p>
   <img src="media/pl_track_vort_precip_slp.gif">
-  <p>Relative vorticity ($\zeta$), pressure, and precipitation (<span style="color:#006600">green</span>)</p>
+  <p style="font-size: 70%;"><span style="color:#cc6600">vorticity</span> ($10^{-4}$ $s^{-1}$), <span style="color:#FF0000">pressure</span> ($hPa$), <span style="color:#006600">precipitation</span> ($g$ $m^{-2}$)</p>
 </div>
 <aside class="notes">
 * This slide shows an example of a polar low that developed over the Norwegian Sea in late March 2013
@@ -142,12 +144,12 @@ transition: "fade"
 
 
 #
-<blockquote>The <b>Met Office Unified Model</b> reproduced the polar low reasonably well</blockquote>
-<p style="font-size: 50%;">(more info in <a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full">this paper</a>:)</p>
-<img src="media/paper.png" style="width:100%; height: 400px;">
+<blockquote>The <b>Met Office Unified Model</b> reproduced the polar low <span class="fragment highlight-red">reasonably well</span></blockquote>
+<p style="font-size: 75%;" class="fragment">more info in this paper:</p>
+<a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full" class="fragment"><img src="media/paper.png" style="height: 300px;"></a>
 <!--<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>-->
-<p style="font-size: 200%;">$$\Downarrow$$</p>
-<blockquote>We use it in further analysis of the polar low</blockquote>
+<span style="font-size: 200%;">$$\Downarrow$$</span>
+<blockquote class="fragment highlight-red">We use it in further analysis of the polar low</blockquote>
 
 
 
@@ -301,5 +303,5 @@ Questions?
   <li><a href="https://dennissergeev.github.io"><i class="fa fa-globe -square fa-lg"></i>Website: dennissergeev.github.io</a></li>
 </ul>
 
-# bla
-<iframe src="media/scene/scene.html" class="stretched" style="height:500px; width:700px"></iframe>
+<!-- bla
+<iframe src="media/scene/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->

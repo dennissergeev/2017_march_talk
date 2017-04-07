@@ -4,10 +4,14 @@
 
 .reveal {
   font-family: "Open Sans", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 200;
   letter-spacing: -0.02em;
   color: #333333; }
+
+.reveal p {
+  margin: 5px 0 5px 0;
+}
 
 .reveal h1,
 .reveal h2,
@@ -15,7 +19,7 @@
 .reveal h4,
 .reveal h5,
 .reveal h6 { 
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   text-transform: none;
   text-shadow: none; 
   -webkit-hyphens: none;
@@ -26,7 +30,7 @@
 
 .reveal .title {
   margin: 75px 0 70px 0;
-  font-size: 300%!important;
+  font-size: 150%!important;
 }
 .reveal .author {
   font-size: 100%!important;
