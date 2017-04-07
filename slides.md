@@ -55,6 +55,11 @@ demo: "tiny.cc/ceeda-polar-lows"
   <img src="media/most_beautiful_pl.png">
 </div>
 
+#
+<div class="w90">
+  <img src="media/fun/magnificent.jpg">
+</div>
+
 
 #
 <div class="w50">
