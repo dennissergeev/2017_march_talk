@@ -152,25 +152,31 @@ demo: "tiny.cc/ceeda-polar-lows"
 <blockquote class="fragment highlight-red">We use it in further analysis of the polar low</blockquote>
 
 
+#
+<h1 style="font-size: 300%; margin: 100px 0 150px 0;">Current research</h1>
+<img src="media/fun/wip.jpg">
+
 
 # Does geography play a role in polar low formation?
-<div class="w45">
+<div class="w45 fragment">
 Hypothesis 1:
-<blockquote>Svalbard's orography deflects the northerly flow</blockquote>
-$$\Downarrow$$
-<blockquote>Let's remove Svalbard!</blockquote>
+<blockquote>Svalbard's <span class="fragment highlight-red">orography</span> deflects the northerly flow</blockquote>
+<span class="fragment">$$\Downarrow$$
+<blockquote>Let's remove Svalbard!</blockquote></span>
 </div>
 
-<div class="w45">
+<div class="w45 fragment">
 Hypothesis 2:
-<blockquote>Several studies indicate that sea ice cover plays a significant role</blockquote>
-$$\Downarrow$$
-<blockquote>Let's flatten out the sea ice edge!</blockquote>
+<blockquote>Several studies indicate that <span class="fragment highlight-red">sea ice</span> extent plays a significant role</blockquote>
+<span class="fragment">$$\Downarrow$$
+<blockquote>Let's change the sea ice edge!</blockquote></span>
 </div>
 
-### Why is this important?
+<span class="fragment">
+<h3 style="font-size: 120%">Why is this important?</h3>
 * Climate change in the Arctic can lead to a dramatic sea ice retreat
 * It is still uncertain how it will affect polar low climatology
+</span>
 
 <aside class="notes">
 * When I looked at the clouds and convergence line in the lee of Svalbard, it seemed that the northerly flow was deflected by Svalbard
@@ -220,7 +226,7 @@ $$\Downarrow$$
 </aside>
 
 
-# Experiment with "fake" sea ice
+# Experiment with straight sea ice edge
 <div class="w100">
   <img src="media/sic_oro_diff_ctrl_fake_seaice.png">
 </div>
@@ -228,16 +234,18 @@ $$\Downarrow$$
 * Sea ice edge is a straight line
 
 
-# with "fake" sea ice
-* Perturbing sea ice cover has bigger impact: the cyclone is displaced more
-* Shown are contours of vorticity ($\zeta>=10^{-3} s^{-1}$) at 950 hPa
+# with straight sea ice edge
+* Perturbing ice cover has <span class="fragment  highlight-red">bigger</span> impact: the cyclone is displaced more
 
 <div class="w70">
   <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_seaice450_pressure950_201303261200.png">
 </div>
 
+# Don't worry
+<img src="media/fun/endisnear.gif" style="height: 200px;">
 
-# Experiment without Svalbard AND with "fake" sea ice
+
+# Experiment without Svalbard AND with straight sea ice edge
 <div class="w100">
   <img src="media/sic_oro_diff_ctrl_nosvalbard_fake_seaice.png">
 </div>
@@ -245,15 +253,9 @@ $$\Downarrow$$
 * Surface altitude of Svalbard is set to 0
 * Sea ice edge is a straight line
 </div>
-<br>
-<div class="w20">
-  <img src="media/endisnear.gif">
-</div>
 
-
-# without Svalbard AND with "fake" sea ice
-* Two factors combined result in the biggest difference compared to CTRL run
-* Shown are contours of vorticity ($\zeta>=10^{-3} s^{-1}$) at 950 hPa
+# without Svalbard AND with straight sea ice edge
+* 2 factors combined result in the <span class="fragment  highlight-red">biggest difference compared to CTRL</span>
 
 <div class="w70">
   <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_seaice450_nosvalbard_pressure950_201303261200.png">
@@ -269,11 +271,9 @@ $$\Downarrow$$
 * <em>But</em> the exact location and shape is influenced by surface factors
 * Sea ice cover is more important than orography
 </div>
-<br>
-
-## Future plans
-* Run the model for other polar low cases
-* Investigate how the sea ice cover affects polar low dynamics
+<div class="w20 fragment">
+  <img src="media/fun/ytho.jpg">
+</div>
 
 <aside class="notes">
 * For a typical "merry-go-round" polar low 
@@ -281,14 +281,11 @@ $$\Downarrow$$
 </aside>
 
 
-# Want to learn more about polar lows?
-* Flick through <a href="http://polarlow.met.no/stars-dat/">STARS catalogue</a>
-* Visit the blog <a href="https://polarlows.wordpress.com/">Polar lows - the coolest weather on planet</a>
+# Future plans
+* Run the model for other polar low cases
+* Investigate how <em>exactly</em> the sea ice cover affects polar low dynamics
 
-<iframe src="https://polarlows.wordpress.com/" style="width:100%; height:300px;"></iframe>
-* Stay alert with <a href="https://www.barentswatch.no/en/polar-low/">real-time polar low forecasts via Barents Watch</a>
-
-<iframe src="https://www.barentswatch.no/en/polar-low/" style="width:100%; height:300px;"></iframe>
+{grid of experiments}
 
 
 # Thanks!
@@ -296,12 +293,16 @@ $$\Downarrow$$
 Questions?
 </center>
 
-
 <ul class="icon-list">
   <li><a href="https://twitter.com/meteodenny"><i class="fa fa-twitter -square fa-lg"></i>Twitter: meteodenny</a></li>
   <li><a href="https://https://github.com/dennissergeev"><i class="fa fa-github -square fa-lg"></i>GitHub: dennissergeev</a></li>
   <li><a href="https://dennissergeev.github.io"><i class="fa fa-globe -square fa-lg"></i>Website: dennissergeev.github.io</a></li>
 </ul>
+
+<div class="w30">
+<img src="media/fun/shia.gif">
+</div>
+<br>
 
 <!-- bla
 <iframe src="media/scene/scene.html" class="stretched" style="height:500px; width:700px"></iframe>-->
