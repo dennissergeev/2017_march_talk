@@ -13,13 +13,12 @@ transition: fade
 <blockquote>
 <em>Polar lows</em> are small (<b>100–500 km</b> in diameter), short-lived maritime depressions with near-surface winds exceeding <b>15 m/s</b>
 </blockquote>
+<div class="w45">
 - A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific
 - Typical conditions give an [estimate](http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/) of roughly $10^{18} J$ of the total <b>kinetic energy</b>.
-
-<div class="w30">
-  <img src="media/cao_metno.jpg">
-  <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
 </div>
+
+<div class="w45">
 <div class="w30">
   <img src="media/polarlow_metno.jpg">
   <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
@@ -27,6 +26,7 @@ transition: fade
 <div class="w30">
   <img src="media/polarlow_barentssea.jpg">
   <p class="lcred"><a href="http://www.sat.dundee.ac.uk">NERC Satellite Receiving Station</a></p>
+</div>
 </div>
 
 <aside class="notes">
@@ -40,9 +40,15 @@ transition: fade
 
 
 # Where do polar lows occur?
+<div class="w50">
 * In the regions of frequent <b>cold-air outbreaks</b>
 * Hundreds of polar mesoscale cyclones per year in each region
 * More intense polar lows occur less frequently (in the Northern Hemisphere - mostly in winter)
+</div>
+<div class="w45">
+  <img src="media/cao_metno.jpg">
+  <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
+</div>
 
 <div class="w60">
   <img src="media/pl_climatology.jpg">
