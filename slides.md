@@ -5,6 +5,7 @@ author:
 - I. Renfrew, T. Spengler, S. Dorling
 date: CEEDA conference | Cambridge, UK | 11 April 2017
 demo: "tiny.cc/ceeda-polar-lows"
+transition: fade
 
 ---
 
@@ -14,23 +15,29 @@ demo: "tiny.cc/ceeda-polar-lows"
 </blockquote>
 - A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific
 - Typical conditions give an [estimate](http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/) of roughly $10^{18} J$ of the total <b>kinetic energy</b>.
-- Their main energy sources are: air-sea heat fluxes, condensational heating; available potential and kinetic energy of large-scale flow.
 
-<div class="w30 fragment">
+<div class="w30">
   <img src="media/cao_metno.jpg">
   <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
 </div>
-<div class="w30 fragment">
+<div class="w30">
   <img src="media/polarlow_metno.jpg">
   <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
 </div>
-<div class="w30 fragment">
+<div class="w30">
   <img src="media/polarlow_barentssea.jpg">
   <p class="lcred"><a href="http://www.sat.dundee.ac.uk">NERC Satellite Receiving Station</a></p>
 </div>
 
 <aside class="notes">
+* Their main energy sources are: air-sea heat fluxes, condensational heating; available potential and kinetic energy of large-scale flow.
 </aside>
+
+#
+<div class="w90">
+  <img src="media/fun/magnificent.jpg">
+</div>
+
 
 # Where do polar lows occur?
 * In the regions of frequent <b>cold-air outbreaks</b>
@@ -54,12 +61,6 @@ demo: "tiny.cc/ceeda-polar-lows"
   <p class="lcred">[Nordeng and Rasmussen, 1992]</p>
   <img src="media/most_beautiful_pl.png">
 </div>
-
-#
-<div class="w90">
-  <img src="media/fun/magnificent.jpg">
-</div>
-
 
 #
 <div class="w50">
@@ -124,7 +125,8 @@ demo: "tiny.cc/ceeda-polar-lows"
 </aside>
 
 
-# ACCACIA Polar Low: MODIS picture {data-transition="fade-out convex-in"}
+# ACCACIA Polar Low: MODIS picture
+<!--{data-transition="fade-out convex-in"}-->
 <div class="img-with-text" style="float: right;">
   <img src="media/modis.jpg" style="height:500px; width:600px;">
   <p>NEODAAS NERC Satellite Receiving Station, Dundee University</p>
@@ -135,7 +137,7 @@ demo: "tiny.cc/ceeda-polar-lows"
 </aside>
 
 
-# Met Office Unified Model simulation {data-transition="fade-in convex-out"}
+# Met Office Unified Model simulation
 <div style="float: right;">
   <img src="media/featured_image_lowres.jpg" style="height:625px; width:900px;">
 </div>
@@ -149,11 +151,11 @@ demo: "tiny.cc/ceeda-polar-lows"
 
 #
 <blockquote>The <b>Met Office Unified Model</b> reproduced<br>the polar low <span class="fragment highlight-red">reasonably well</span></blockquote>
-<p style="font-size: 75%;" class="fragment">more info in this paper:</p>
-<a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full" class="fragment"><img src="media/paper.png" style="height: 300px;"></a>
+<p style="font-size: 75%;" class="fragment highlight-red">more info in this paper:</p>
+<a href="http://onlinelibrary.wiley.com/doi/10.1002/qj.2911/full"><img src="media/paper.png" style="height: 300px;"></a>
 <!--<iframe id="pdfDocument" src="media/paper.pdf" style="width:100%; height: 400px;"></iframe>-->
-<span class="fragment">$$\Downarrow$$</span>
-<span class="fragment">
+<span>$$\Downarrow$$</span>
+<span>
 <blockquote>We use it in further analysis of the polar low</blockquote>
 </span>
 
@@ -163,18 +165,18 @@ demo: "tiny.cc/ceeda-polar-lows"
 
 
 # Does geography play a role in polar low formation?
-<div class="w45 fragment">
+<div class="w45">
 Hypothesis 1:
 <blockquote>Svalbard's <span class="fragment highlight-red">orography</span> deflects the northerly flow</blockquote>
-<span class="fragment">$$\Downarrow$$
-<blockquote>Let's remove Svalbard!</blockquote></span>
+$$\Downarrow$$
+<blockquote>Let's remove Svalbard!</blockquote>
 </div>
 
-<div class="w45 fragment">
+<div class="w45">
 Hypothesis 2:
 <blockquote>Several studies indicate that <span class="fragment highlight-red">sea ice</span> extent plays a significant role</blockquote>
-<span class="fragment">$$\Downarrow$$
-<blockquote>Let's change the sea ice edge!</blockquote></span>
+$$\Downarrow$$
+<blockquote>Let's change the sea ice edge!</blockquote>
 </div>
 
 <span class="fragment">
@@ -275,9 +277,6 @@ Hypothesis 2:
 * The existence of the polar low is determined by the atmospheric dynamics
 * <em>But</em> the exact location and shape is influenced by surface factors
 * Sea ice cover is more important than orography
-</div>
-<div class="w20 fragment">
-  <img src="media/fun/ytho.jpg">
 </div>
 
 <aside class="notes">
