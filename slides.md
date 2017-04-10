@@ -87,8 +87,8 @@ transition: fade
 </div>
 
 #
-<div class="w50">
-  <img src="media/olr_slp_vort_20130326_1800_0200_1300.jpg">
+<div class="w30">
+  <img src="media/accacia_lwtoa.png">
 </div>
 <div class="w45">
   <h6 style="font-size:50%;">(not so beautiful)</h6>
@@ -287,7 +287,8 @@ $$\Downarrow$$
 <div class="w45">
   <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_nosvalbard_seaice450_seaice450_nosvalbard_pressure950_201303261200.png">
 </div>
-<div class="w45">
+<br>
+<div class="w90">
 * The existence of the polar low is determined by the atmospheric dynamics
 * <em>But</em> the exact location and shape is influenced by surface factors
 * Sea ice cover is more important than orography
@@ -302,8 +303,11 @@ $$\Downarrow$$
 # Future plans
 * Run the model for other polar low cases
 * Investigate how <em>exactly</em> the sea ice cover affects polar low dynamics
-
-{grid of experiments}
+<br>
+<div class="w90">
+  <img src="media/your_polar_low.png">
+</div>
+<div class="w90">
 
 
 # Thanks!
