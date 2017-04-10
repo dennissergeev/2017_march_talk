@@ -182,7 +182,7 @@ transition: fade
 </span>
 
 #
-<h1 style="font-size: 300%; margin: 100px 0 150px 0;">Current research</h1>
+<h1 style="font-size: 300%; margin: 100px 0 70px 0;">Current research</h1>
 <img src="media/fun/wip.jpg">
 
 
@@ -231,10 +231,13 @@ $$\Downarrow$$
   <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_nosvalbard_pressure950_201303261200.png">
 </div>
 
+# Polar low (CTRL run): isosurface of vorticity
+<iframe src="media/scene/accacia.html" class="stretched" style="height:1500px; width:1900px"></iframe>
+
 # How is it reflected in the backward trajectories?
 * We use LAGRANTO model to calculate trajectories **backward in time**, starting **from the polar low centre**
 * Trajectories are coloured by **pressure**
-* Shown here are only those that ended up in the **boundary layer** (below 850 hPa)
+* Shown here are only those that ended up in the **boundary layer**
 
 <div class="w100">
   <img src="media/ctrl_nosvalbard_diff_traj_below850hpa.png">
@@ -317,7 +320,7 @@ Questions?
 
 <ul class="icon-list">
   <li><a href="https://twitter.com/meteodenny"><i class="fa fa-twitter -square fa-lg"></i>Twitter: meteodenny</a></li>
-  <li><a href="https://https://github.com/dennissergeev"><i class="fa fa-github -square fa-lg"></i>GitHub: dennissergeev</a></li>
+  <li><a href="https://github.com/dennissergeev"><i class="fa fa-github -square fa-lg"></i>GitHub: dennissergeev</a></li>
   <li><a href="https://dennissergeev.github.io"><i class="fa fa-globe -square fa-lg"></i>Website: dennissergeev.github.io</a></li>
   <li><a href="https://tiny.cc/ceeda-polar-lows"><i class="fa fa-play-circle -square fa-lg"></i>This presentation: tiny.cc/ceeda-polar-lows</a></li>
 </ul>
@@ -328,6 +331,4 @@ Questions?
 <br>
 
 <!--
-# bla
-<iframe src="media/scene/scene.html" class="stretched" style="height:1500px; width:1900px"></iframe>
 -->
