@@ -9,23 +9,34 @@ transition: fade
 
 ---
 
-# What are polar lows?
+# What are polar lows? 
+<div class="w60">
 <blockquote>
 <em>Polar lows</em> are small (<b>100–500 km</b> in diameter), short-lived maritime depressions with near-surface winds exceeding <b>15 m/s</b>
 </blockquote>
-<div class="w45">
-- A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific
-- Typical conditions give an [estimate](http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/) of roughly $10^{18} J$ of the total <b>kinetic energy</b>.
+<ul  style="font-size: 90%">
+<li>A hazard to ships, oil rigs and coastal communities in the Arctic, North Atlantic and North Pacific</li>
+<li>Typical conditions give an [estimate](http://www.scisnack.com/2015/03/04/polar-lows-what-fuels-arctic-hurricanes/) of $10^{18} J$ of the total <b>kinetic energy</b> $\approx$ 100 thunderstorms.</li>
+</ul>
 </div>
 
-<div class="w45">
+<div class="w35">
+  <img src="media/PL_19122014_Lofoten.jpg">
+  <p class="lcred"><a href="http://www.nrk.no/nordland/polart-lavtrykk-inn-mot-nordland-natt-til-sondag-1.12112660">NRK.no</a></p>
+</div>
+<br>
+<div class="w100">
+<div class="w30">
+  <img src="media/polarlow_barentssea.jpg">
+  <p class="lcred"><a href="http://www.sat.dundee.ac.uk">NERC Satellite Receiving Station</a></p>
+</div>
 <div class="w30">
   <img src="media/polarlow_metno.jpg">
   <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
 </div>
 <div class="w30">
-  <img src="media/polarlow_barentssea.jpg">
-  <p class="lcred"><a href="http://www.sat.dundee.ac.uk">NERC Satellite Receiving Station</a></p>
+  <img src="media/pl_japansea.jpg">
+  <p class="lcred"><a href="http://www.atmos.rcast.u-tokyo.ac.jp/hotspot/eng/selected2/a01_k1.html">U. Tokyo</a></p>
 </div>
 </div>
 
@@ -39,20 +50,27 @@ transition: fade
 </div>
 
 
+# Where do polar lows occur? 
+<div class="w90">
+  <img src="media/cao_pl.jpg">
+  <p class="lcred"><a href="http://www.sat.dundee.ac.uk">NERC Satellite Receiving Station</a></p>
+</div>
+
+
 # Where do polar lows occur?
-<div class="w50">
+<div class="w100">
 * In the regions of frequent <b>cold-air outbreaks</b>
 * Hundreds of polar mesoscale cyclones per year in each region
-* More intense polar lows occur less frequently (in the Northern Hemisphere - mostly in winter)
+* More <b>intense</b> polar lows occur less frequently (NH - mostly in winter)
 </div>
-<div class="w45">
+<br>
+<div class="w35">
   <img src="media/cao_metno.jpg">
   <p class="lcred"><a href="https://twitter.com/Meteorologene">MET Norway</a></p>
 </div>
-
-<div class="w60">
+<div class="w55">
   <img src="media/pl_climatology.jpg">
-  <p>Source: MET.no</p>
+  <p class="lcred"><a href="https://www.barentswatch.no/en/articles/polar-lows-explained/">BarentsWatch</a></p>
 </div>
 
 <aside class="notes">
@@ -60,11 +78,6 @@ transition: fade
 * Typically in the regions prone to CAOs, where relatively cold continental air is advected over warm ice-free waters.
 * Satellite-based climatological studies show that there are typically hundreds od PMCs per year
 </aside>
-
-# Cold air outbreaks
-<div class="w90">
-  <img src="media/cao_dundee.jpg">
-</div>
 
 
 # "The most beautiful polar low"
@@ -100,17 +113,15 @@ transition: fade
 # Observations
 <div class="w40" style="float: top;">
   <ul>
-  <li>Data were gathered instrumented aircraft and dropsondes during ACCACIA field campaign</li>
+  <li>Data were gathered instrumented <b>aircraft</b> and <b>dropsondes</b> during ACCACIA field campaign</li>
   </ul>
+  <div class="w45"><img src="media/dropsonde.png"></div>
+  <div class="w45"><img src="media/faam.png"></div>
   <img src="media/faam_probes.jpg">
-  <div class="w40"><img src="media/dropsonde.png"></div>
-  <div class="w40"><img src="media/faam.png"></div>
 </div>
 <div class="w55">
   <img src="media/all_obs_map_with_globe.jpg">
-  <ul>
-  <li>+ satellite data: AVHRR, CloudSat, ASCAT</li>
-  </ul>
+  <p>$+$ satellite data: AVHRR, CloudSat, ASCAT</p>
 </div>
 
 <aside class="notes">
@@ -220,26 +231,18 @@ $$\Downarrow$$
   <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_nosvalbard_pressure950_201303261200.png">
 </div>
 
-
 # How is it reflected in the backward trajectories?
-* We use LAGRANTO model to calculate trajectories backward in time, starting from the polar low centre
-* All the trajectories coloured by pressure value are shown below
-
-<div class="w100">
-  <img src="media/ctrl_nosvalbard_diff_traj_all.png">
-</div>
-<aside class="notes">
-<p>The majority of air parcels that ended up in the PL sector have north and north-west origin</p>
-<p>Atmospheric pressure does not change significantly along a single trajectory, implying the mesocyclones formed without interaction with the upper troposphere.</p>
-<p>Air from the Svalbard region moves mostly within mid-tropospheric levels</p>
-</aside>
-# How is it reflected in the backward trajectories?
-* Now only the trajectories that ended up in the boundary layer (below 850 hPa)
+* We use LAGRANTO model to calculate trajectories **backward in time**, starting **from the polar low centre**
+* Trajectories are coloured by **pressure**
+* Shown here are only those that ended up in the **boundary layer** (below 850 hPa)
 
 <div class="w100">
   <img src="media/ctrl_nosvalbard_diff_traj_below850hpa.png">
 </div>
 <aside class="notes">
+<p>The majority of air parcels that ended up in the PL sector have north and north-west origin</p>
+<p>Atmospheric pressure does not change significantly along a single trajectory, implying the mesocyclones formed without interaction with the upper troposphere.</p>
+<p>Air from the Svalbard region moves mostly within mid-tropospheric levels</p>
 <p>Very few trajectories pass over Svalbard</p>
 </aside>
 

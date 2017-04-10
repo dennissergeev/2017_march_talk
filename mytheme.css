@@ -52,6 +52,7 @@
     /* If inside a <div>, assume manual layout; let the image
  *        fill the whole box */
     max-width: 100%;
+    margin: 0 0 0 0;
 }
 
 .reveal .ctr {
