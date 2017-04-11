@@ -44,10 +44,11 @@ transition: fade
 * Their main energy sources are: air-sea heat fluxes, condensational heating; available potential and kinetic energy of large-scale flow.
 </aside>
 
-#
+<!-- #
 <div class="w90">
   <img src="media/fun/magnificent.jpg">
 </div>
+-->
 
 
 # Where do polar lows occur? 
@@ -56,12 +57,18 @@ transition: fade
   <p class="lcred"><a href="http://www.sat.dundee.ac.uk">NERC Satellite Receiving Station</a></p>
 </div>
 
+<aside class="notes">
+* Typically in the regions prone to CAOs, where relatively cold continental air is advected over warm ice-free waters.
+* A perfect example of CAO is manifested by the long parallel cloud streets in this image.
+* Down south, the edge of CAO curls up in a cyclone, which continues to draw energy from the ocean surface
+</aside>
+
 
 # Where do polar lows occur?
 <div class="w100">
-* In the regions of frequent <b>cold-air outbreaks</b>
-* Hundreds of polar mesoscale cyclones per year in each region
-* More <b>intense</b> polar lows occur less frequently (NH - mostly in winter)
+* <b>Cold-air outbreaks</b> occur in the North Atlantic, resulting in
+* Hundreds of small mesoscale cyclones per year in each region
+* There, dozens of <b>intense</b> polar lows develop mostly in **winter**
 </div>
 <br>
 <div class="w35">
@@ -74,9 +81,9 @@ transition: fade
 </div>
 
 <aside class="notes">
-* There are some favourable locations for the development of polar lows.
-* Typically in the regions prone to CAOs, where relatively cold continental air is advected over warm ice-free waters.
+* There are some favourable locations for the CAO and polar lows.
 * Satellite-based climatological studies show that there are typically hundreds od PMCs per year
+* Each blue triangle in this figure shows a polar low location
 </aside>
 
 
@@ -101,8 +108,7 @@ transition: fade
 * This slide shows an example of a polar low that developed over the Norwegian Sea in late March 2013
 * You can either look at the evolution of the clouds on the right (time goes from top to the bottom row)
 * On the left the same PL is shown following the track
-* Chains of mesoscale disturbances appeared around the synoptic low, forming the so-called merry-go-round signature
-* The northerly flow converged into a line of intense vorticity (brownish colours)
+* The northerly flow converged into a line of high cyclonic vorticity (brownish colours)
 * It was undulating and producing small instability waves
 * The vorticity filament bent in half and curled up into a PL
 * Later, the PL broke down into a bunch of smaller disturbances
@@ -126,10 +132,9 @@ transition: fade
 
 <aside class="notes">
 * So why is this case worth investigating? 
-* Plus, shear-line cases are a bit underrepresented in PL studies. 
-* But at the same time this case is typical of many mesoscale vortices forming on the edge of a cold-air outbreak.
-* There are a lot of observations available, because it was probed by instrumented aircraft during the ACCACIA field campaign (purple line on the map)
-* And it is rare: even today, there are only about a dozen of PLs observed with instrumented aircraft
+* This type of polar low is frequent in the region, though many studies focused more on hurricane-like polar lows
+* From a pragmatic point of view, we have a lot of observations, because it was probed by instrumented aircraft during the ACCACIA field campaign (purple line on the map)
+* And this is valuable: even today, there are only about a dozen of PLs directly observed with aircraft
 </aside>
 
 
@@ -142,7 +147,8 @@ transition: fade
 </div>
 
 <aside class="notes">
-* The dramatic change in weather conditions is evident from this video taken by one of the aircraft cameras.
+* So what does it look like to fly on an airplane through a cloud wall of a polar low?
+* Dramatic change in weather conditions
 * You can witness the windy and stormy conditions in the cold air mass, but as the aircraft crosses the cloud wall, the atmosphere becomes very calm and clear.
 </aside>
 
@@ -208,6 +214,7 @@ $$\Downarrow$$
 </span>
 
 <aside class="notes">
+* In the final part of my talk I will focus on the role of surface conditions in polar low life cycle
 * When I looked at the clouds and convergence line in the lee of Svalbard, it seemed that the northerly flow was deflected by Svalbard
 * So I decided to change the orography mask in the model and see what happens
 * I started with lowering the Svalbard mountains by a certain factor
@@ -215,7 +222,7 @@ $$\Downarrow$$
 </aside>
 
 
-# Experiment without Svalbard
+# (1) Experiment without Svalbard
 <div class="w100">
   <img src="media/sic_oro_diff_ctrl_nosvalbard.png">
 </div>
@@ -223,7 +230,7 @@ $$\Downarrow$$
 * Sea ice is the same as in the control (CTRL) run
 
 
-# without Svalbard
+# (1) without Svalbard
 * Removing Svalbard has little impact on the polar low development
 * Shown are contours of vorticity ($\zeta>=10^{-3} s^{-1}$) at 950 hPa
 
@@ -231,10 +238,17 @@ $$\Downarrow$$
   <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_nosvalbard_pressure950_201303261200.png">
 </div>
 
-# Polar low (CTRL run): isosurface of vorticity
+# (1) Polar low (CTRL run): isosurface of vorticity
 <iframe src="media/scene/accacia.html" class="stretched" style="height:1500px; width:1900px"></iframe>
 
-# How is it reflected in the backward trajectories?
+<aside class="notes">
+* The air flows from the ice fields of the North and then curls up in a cyclone (green arrows)
+* The cyclonic circulation can be visible in the white streamlines
+* The more air flow changes speed and direction, the higher the vorticity is - shown by dark blue isosurfaces
+</aside>
+
+
+# (1) How is it reflected in the backward trajectories?
 * We use LAGRANTO model to calculate trajectories **backward in time**, starting **from the polar low centre**
 * Trajectories are coloured by **pressure**
 * Shown here are only those that ended up in the **boundary layer**
@@ -243,14 +257,14 @@ $$\Downarrow$$
   <img src="media/ctrl_nosvalbard_diff_traj_below850hpa.png">
 </div>
 <aside class="notes">
+<p>Very few trajectories pass over Svalbard</p>
 <p>The majority of air parcels that ended up in the PL sector have north and north-west origin</p>
 <p>Atmospheric pressure does not change significantly along a single trajectory, implying the mesocyclones formed without interaction with the upper troposphere.</p>
 <p>Air from the Svalbard region moves mostly within mid-tropospheric levels</p>
-<p>Very few trajectories pass over Svalbard</p>
 </aside>
 
 
-# Experiment with straight sea ice edge
+# (2) Experiment with straight sea ice edge
 <div class="w100">
   <img src="media/sic_oro_diff_ctrl_fake_seaice.png">
 </div>
@@ -258,7 +272,7 @@ $$\Downarrow$$
 * Sea ice edge is a straight line
 
 
-# with straight sea ice edge
+# (2) with straight sea ice edge
 * Perturbing ice cover has <span class="fragment  highlight-red">bigger</span> impact: the cyclone is displaced more
 
 <div class="w70">
@@ -269,7 +283,7 @@ $$\Downarrow$$
 <img src="media/fun/endisnear.gif" style="height: 200px;">
 
 
-# Experiment without Svalbard AND with straight sea ice edge
+# (3) Experiment without Svalbard AND with straight sea ice edge
 <div class="w100">
   <img src="media/sic_oro_diff_ctrl_nosvalbard_fake_seaice.png">
 </div>
@@ -278,8 +292,8 @@ $$\Downarrow$$
 * Sea ice edge is a straight line
 </div>
 
-# without Svalbard AND with straight sea ice edge
-* 2 factors combined result in the <span class="fragment  highlight-red">biggest difference compared to CTRL</span>
+# (3) without Svalbard AND with straight sea ice edge
+* 2 factors combined result in the <span class="fragment highlight-red">biggest difference compared to CTRL</span>
 
 <div class="w70">
   <img src="media/vort_diff_20130324T1200Z_km2p2_ctrl_seaice450_nosvalbard_pressure950_201303261200.png">
@@ -304,8 +318,8 @@ $$\Downarrow$$
 
 
 # Future plans
-* Run the model for other polar low cases
-* Investigate how <em>exactly</em> the sea ice cover affects polar low dynamics
+* Run the model for <span style="fragment highlight-red">other</span> polar low cases (<a href="http://polarlow.met.no/stars-dat/">STARS database</a>)
+* Investigate how <em>exactly</em> the <span style="fragment highlight-red">sea ice cover</span> affects polar low dynamics
 <br>
 <div class="w90">
   <img src="media/your_polar_low.png">
